@@ -1,0 +1,415 @@
+{
+    "questions": [
+        {
+            "question_id": 1,
+            "question": "İletişim ve İlişki Becerileri",
+            "definition": "Bu faktör, iletişim kurma, ilişkiler kurma ve sürdürme ile başkalarının işbirliğini sağlama becerilerini ölçer. Bu, motive etme, müzakere yapma, ikna etme, sunum yapma, başkalarını eğitme, empati kurma, hoş olmayan haberleri hassas bir şekilde iletme ve danışmanlık ve güven verme becerilerini içerir. Ayrıca bu becerileri kullanmanın getirdiği zorlukları da göz önünde bulundurur.",
+            "options": [
+                {"text": "Seviye 1: Kendi işini yürütmek için rutin bilgileri sözlü olarak sağlama ve alma. İletişim genellikle iş arkadaşları ile olur.", "score": 5},
+                {"text": "Seviye 2: İş arkadaşları,  müşteriler, diğer çalışanlar, halk veya diğer dış bağlantılarla rutin bilgileri sözlü, yazılı veya elektronik olarak sağlama ve alma.", "score": 12},
+                {"text": "Seviye 3: (a) Takt veya ikna becerisi gerektiren veya anlaşılmasını engelleyen engellerin bulunduğu rutin bilgileri sağlama ve alma. Veya (b) Karmaşık veya hassas bilgileri sağlama ve alma. Veya (c) Konunun basit olduğu gruplara tavsiye verme, talimat verme veya eğitim sağlama.", "score": 21},
+                {"text": "Seviye 4: (a) İkna edici, motive edici, müzakere, eğitim, empati veya güven verme becerileri gerektiren karmaşık, hassas veya tartışmalı bilgileri sağlama ve alma. Bu, anlaşma veya işbirliği gerektirebilir veya anlaşılmasını engelleyen engeller olabilir. Veya (b) Son derece karmaşık bilgileri sağlama ve alma.", "score": 32},
+                {"text": "Seviye 5: (a) Gelişmiş ikna edici, motive edici, müzakere, eğitim, empati veya güven verme becerileri gerektiren son derece karmaşık, hassas veya tartışmalı bilgileri sağlama ve alma. Bu, anlaşma veya işbirliği gerektirebilir veya anlaşılmasını engelleyen engeller olabilir. Veya (b) Karmaşık, hassas veya tartışmalı bilgileri büyük bir personel grubuna veya kamu üyelerine sunma. Veya (c) Karmaşık, hassas veya tartışmalı bilgileri sağlama ve alma, önemli kabul engelleri varsa ve bu engeller gelişmiş kişilerarası ve iletişim becerileri kullanılarak aşılması gerekiyorsa, örneğin düşmanca, karşıt veya son derece duygusal bir ortamda iletişim kurmak gerektiğinde yetkinliklerini kullabilme.", "score": 45},
+                {"text": "Seviye 6: Son derece karmaşık, hassas veya tartışmalı bilgileri sağlama ve alma, kabulü zorlaştıran önemli engeller varsa ve bu engellerin en yüksek düzeyde kişilerarası ve iletişim becerileri kullanılarak aşılması gerekiyorsa; örneğin çatışmacı ortamlarda, karşıt veya son derece duygusal bir atmosferde iletişim kurarken gereken becerilere sahip olma.", "score": 60}
+            ],
+            "details": [
+                "Seviye 2'den itibaren iletişim sözlü olabilir ya da yazılı, elektronik veya işaret dili gibi diğer sözlü veya sözsüz biçimlerde olabilir ve iş arkadaşları, personel, hastalar, temel düzeyde çalışanlar, kamu veya dış temas noktalarıyla (diğer kurumlar veya tedarikçiler gibi) yapılabilir.",
+                "Türkçe dışında bir dilde iletişim gereksinimi. Türkçe dışında bir dilde iletişim gerektiren işler, aksi takdirde Seviye 2'de yer alacaksa, Seviye 3'te değerlendirilecektir. Seviye 3'ü aşan herhangi bir puan, iletişimin doğasına, gerekli becerilere ve bu becerilerin faktör seviyeleri tanımlarını ne kadar karşıladığına bağlı olacaktır, ",
+                "Anlaşılmayı engelleyen engeller (Seviye 3'ten 5a'ya) kültürel veya dil farklılıkları, fiziksel veya zihinsel özel ihtiyaçlar veya yaş (örneğin küçük çocuklar, yaşlı veya zayıf hastalar/müşteriler) gibi nedenlerle dinleyicinin kolayca anlayamayabileceği durumları ifade eder.",
+                "Seviye 3'ten itibaren iletişim sözlü, yazılı, elektronik, işaret dili veya diğer sözlü veya sözsüz biçimlerde olabilir.",
+                "Takt veya ikna becerileri (Seviye 3a). Takt, insanları rahatsız etmeyen veya karşıt hale getirmeyen bir şekilde iletişim kurmanın gerekli olduğu durumlarda gerekebilir. Bu, üzgün veya öfkeli olabilecek kişilerle iletişim kurma gereksinimi, endişe ve ruh halleri konusunda hassasiyet gösterme ve başkalarının söylediklerimize nasıl tepki vereceğini öngörmeyi içerebilir. İkna becerileri, dinleyicileri belirli bir eylem yolunu izlemeye teşvik etme becerilerini ifade eder.",
+                "Karmaşık (Seviye 3b, 4a, 5b, 5c) birden fazla bileşen içeren ve karmaşık olan durumları ifade eder; örneğin muhasebe işleri için finansal bilgiler, İK işleri için iş hukuku, nitelikli operasyonel işler için durumla ilgili bilgiler. Çoğu profesyonel iş genellikle karmaşık bilgileri sağlama veya alma içerir.",
+                "Hassas bilgiler (Seviye 3b, 4a, 5b, 5c) iletilmesi gereken hassas veya kişisel bilgileri içerir.",
+                "Eğitim - Konu basitse (Seviye 3c), manuel iş yapma, yeni ekipman tanıma, çalışma alanı ile yeterli bilgiye sahip olma, hijyen, sağlık ve güvenlik gibi pratik konularda eğitim anlamına gelir.",
+                "Empati (Seviye 4a, 5a), bir kişinin durumunu veya bakış açısını anlama veya kendini bu duruma koyabilme anlamına gelir.",
+                "Son derece karmaşık (Seviye 4b, 5a, 6), iş sahibinin çelişkili olabilecek son derece karmaşık bilgileri iletmesi gereken durumları ifade eder; örneğin özellikle karmaşık teknik konular, açıklaması zor ve çok katmanlı iş vakaları.",
+                "Son derece hassas (Seviye 5a ve 6), iletişim konusunun son derece hassas veya kırılgan olduğu durumları ifade eder; örneğin müşterilerle fetal anormallikler veya yaşamı tehdit eden kusurlar hakkında iletişim kurmak veya insanları rahatsız edebilecek konularda iletişim kurmak.",
+                "Son derece tartışmalı (Seviye 5a ve 6), iletişim konusunun son derece tartışmalı olduğu ve muhtemelen itiraz edileceği durumları ifade eder; örneğin büyük bir örgütsel değişiklik veya firmanın kapatılması gibi.",
+                "Gelişmiş beceriler (Seviye 5a ve 6), ilgili alanda yüksek düzeyde bir beceriyi ifade eder, bu genellikle özel eğitim veya eşdeğer ilgili deneyimle kazanılmış olabilir. Bir- birine veya grup danışmanlık oturumlarına liderlik gerektiren resmi danışmanlık becerilerini içerir.",
+                "Karmaşık, hassas veya tartışmalı bilgileri büyük bir personel grubuna veya kamu üyelerine sunmak (Seviye 5b), bu tür bilgileri yaklaşık 20 kişi veya daha fazla bir gruba resmi bir ortamda iletmek anlamına gelir; örneğin sınıf öğretimi, yönetim kurullarına veya daha önce tanımadıkları kişilere sunum yapmak. Bu tür iletişim genellikle sunum yardımcıları kullanmayı içerir ve dikkatlerini çeker ve bilgi aktarır.",
+                "Düşmanca, karşıt veya son derece duygusal bir ortamda iletişim kurmak (Seviye 5c), iletişimlerin karmaşık, hassas veya tartışmalı olduğu durumları içerir ve mesajın karşıtlık ve düşmanlık derecesinin yüksek olması, yüksek düzeyde kişilerarası ve iletişim becerileri gerektirir. Bu, terapötik iletişim sağlama veya son derece zorlu davranışlara sahip müşteri davranışları/görüşleri üzerinde etkili olma gibi durumları içerir. Ayrıca güçlü karşıt görüşlere sahip kişilerle iletişim kurmayı ve mesajın anlaşılmasını ve kabul edilmesini sağlamayı içerir; örneğin hizmet sunumu veya istihdam üzerinde etkisi olan politika değişiklikleri hakkında iletişim kurmak.",
+                "Düşmanca, karşıt veya son derece duygusal bir atmosferde son derece karmaşık bilgileri iletmek (Seviye 6), iletişim becerilerinde olağanüstü yüksek bir talep gerektiren bir seviyedir. Bu, iletişimin son derece karmaşık, hassas veya tartışmalı olduğu ve mesajın karşıtlık ve çatışma derecesinin yüksek olduğu durumları ifade eder; bu, yüksek düzeyde kişilerarası ve iletişim becerileri gerektirir. Örneğin, son derece zorlu davranışlara sahip müşterilere hizmet veya bilgi sağlamak veya davranışlarını/görüşlerini etkilemek için iletişim kurmak gibi. Ayrıca, mesajın anlaşılması ve kabul edilmesi gereken, son derece güçlü karşıt görüşlere ve hedeflere sahip kişilerle iletişim kurmayı da içerir; örneğin şirket veya departman kapanışı hakkında personelle veya toplulukla iletişim kurmak."
+            ]
+        },
+        {
+            "question_id": 2,
+            "question": "Bilgi, Eğitim ve Deneyim",
+            "definition": "Bu faktör, iş sorumluluklarını tatmin edici bir şekilde yerine getirmek için gerekli tüm bilgi biçimlerini ölçer. Bu, teorik ve pratik bilgiyi; profesyonel, uzmanlık veya teknik bilgiyi; ve işle ilgili politika, uygulama ve prosedür bilgilerini içerir. Aynı zamanda genellikle beklenen eğitim düzeyini ve resmi bir eğitim kursu almadan kazanılan eşdeğer bilgi seviyesini; ve iş sorumluluklarını tatmin edici bir şekilde yerine getirmek için gereken pratik deneyimi de göz önünde bulundurur.",
+            "options": [
+                {"text": "Seviye 1: Kısa bir oryantasyon süreci veya iş başında talimatla öğrenilebilecek az sayıda rutin iş prosedürünü anlama.", "score": 16},
+                {"text": "Seviye 2: İş eğitimi ve bir oryantasyon dönemi gerektiren, mümkün olan durumlarda derhal çalışma alanı dışında bir dizi rutin iş prosedürünü anlama.", "score": 36},
+                {"text": "Seviye 3: Teorik bilgi tabanına ihtiyaç duyan, bazıları rutin olmayan bir dizi iş prosedürü ve uygulamasını anlama. Bu genellikle resmi eğitim veya eşdeğer deneyim yoluyla edinilir.", "score": 60},
+                {"text": "Seviye 4: Çoğunlukla rutin olmayan, orta düzeyde teorik bilgi gerektiren bir dizi iş prosedürü ve uygulamasını anlama. Bu bilgi genellikle resmi eğitim veya eşdeğer deneyim yoluyla edinilir.", "score": 88},
+                {"text": "Seviye 5: Teorik bilgi veya ilgili pratik deneyimle desteklenen, uzmanlık veya disiplin içinde bilgi gerektiren bir dizi iş prosedürü ve uygulamasını anlama.", "score": 120},
+                {"text": "Seviye 6: Teorik bilgi veya ilgili pratik deneyimle desteklenen, geniş bir iş prosedürleri ve uygulamaları yelpazesinde uzmanlık bilgisi.", "score": 156},
+                {"text": "Seviye 7: Teorik bilgi ve ilgili pratik deneyimle desteklenen, geniş bir iş prosedürleri ve uygulamaları yelpazesinde son derece gelişmiş uzmanlık bilgisi.", "score": 196},
+                {"text": "Seviye 8: (a) Bir dizi iş prosedürü ve uygulamasında ileri düzey teorik ve pratik bilgi, Veya (b) Birden fazla disiplin/fonksiyon üzerinde, uzun bir süre boyunca edinilmiş uzmanlık bilgisi.", "score": 240}
+            ],
+            "details": [
+                "Az sayıda rutin iş prosedürü (Seviye 1) genellikle iş başında, önceden bilgi veya deneyim olmadan öğrenilebilecek prosedürleri içerir.",
+                "Kısa oryantasyon süreci (Seviye 1) genellikle haftalardan ziyade günlerdir.",
+                "İş eğitimi (Seviye 2), genellikle iş başında talimat ve uygulamanın kombinasyonu veya eğitim oturumlarına katılarak sağlanan eğitimi ifade eder. Bu seviyede gerekli bilgi genellikle işte birkaç hafta süren bir öğrenme süreci gerektirir. Ayrıca, sürücü belgesi, iş ekipmanı kullanma belgesi veya Yolcu Taşıma Araçları lisansları gibi bilgiyi de ifade eder.",
+                "Temel düzeyde Teorik bilgi tabanı alanında bir kurs bitirmiş  olmak gibi",
+                "Eşdeğer deneyim (Seviye 3 ve 4) iş sahibinin eşdeğer bilgi seviyesini kazanmasını sağlayan deneyimi ifade eder.",
+                "Orta düzeyde teorik bilgi (Seviye 4), meslek yüksek okulu sertifikası, SMMM belgesi veya diğer diplomalar veya eşdeğer bilgi seviyelerine eşdeğerdir.",
+                "Bir uzmanlık içinde uzmanlık (Seviye 5) genellikle lisans düzeyinde veya eşdeğer bilgi gerektirir. Bu bilgi düzeyi ayrıca kapsamlı bir diplomayla ve önemli deneyimle elde edilebilir. Bir derece veya eşdeğer bilgi gerektiren işler (örneğin mühendislik, hemşirelik gibi) bu seviyede değerlendirilmelidir.",
+                "Uzmanlık bilgisi (Seviye 6), geniş bir teknik/process yelpazesinde derinlemesine deneyim veya teorik çalışma yoluyla edinilebilen bilgi ve uzmanlık seviyesini ifade eder. Bu, belirli bir alanda kayıt sonrası/mezuniyet diploması seviyesine eşdeğerdir. Ayrıca, farklı alanlarda çalışmak için gerekli uzmanlık organizasyonel, prosedürel veya politika bilgilerini de ifade eder. İş sahibinin, bu alanda diğer uzmanlara ve uzman olmayanlara detaylı tavsiyelerde bulunduğu bir düzeyi ifade eder.",
+                "Son derece gelişmiş uzmanlık bilgisi (Seviye 7), yalnızca derinlemesine deneyim ve lisansüstü veya kayıt sonrası çalışma kombinasyonu yoluyla edinilebilen bilgi ve uzmanlık seviyesini ifade eder; bu, bir Yüksek Lisans diploması veya eşdeğer deneyim/kalifikasyon veya doktora veya ilgili bir alanda önemli resmi eğitim veya araştırma yoluyla elde edilen bilgiyi içerir. Doktora veya eşdeğer bilgi gerektiren işler (örneğin tıp, dişçilik, bilimsel veya uzman yönetim nitelikleri) en azından bu seviyede değerlendirilmelidir.",
+                "İleri düzey teorik ve pratik bilgi (Seviye 8a), ilgili uzmanlık alanında en yüksek düzeyde uzmanlık bilgisini ifade eder. Bu, bir doktora derecesi artı ek uzmanlık eğitimi, araştırma veya çalışmayla eşdeğerdir. Bu nedenle, önemli uzmanlık ve deneyim gerektiren ve giriş seviyesi bir doktora veya eşdeğer bir gerektiren pozisyonlar için uygundur; örneğin sağlık veya bilimsel danışmanlık pozisyonları.",
+                "Birden fazla disiplin/fonksiyon üzerinde uzmanlık bilgisi (Seviye 8), birden fazla konu alanında geniş bilgi ve uzmanlık anlamına gelir; örneğin klinik, araştırma ve geliştirme, personel, finans, taşınmazlar gibi alanların kombinasyonu."
+            ]
+        },
+        {
+            "question_id": 3,
+            "question": "Analitik ve Yargısal Beceriler",
+            "definition": "Bu faktör, iş sorumluluklarını tatmin edici bir şekilde yerine getirmek için gereken analitik ve yargısal becerileri ölçer. Bir problemin veya hastalığın teşhis edilmesi ve karmaşık durumların veya bilgilerin anlaşılması için gerekli analitik becerileri; ve çözümler geliştirme, en iyi eylem/tedavi yolunu önerme veya karar verme için gereken yargısal becerileri dikkate alır.",
+            "options": [
+                {"text": "Seviye 1: Basit iş ile ilgili gerçekler veya durumlar hakkında yapılan yargılar.", "score": 6},
+                {"text": "Seviye 2: Analiz gerektiren bazı gerçekler veya durumlar hakkında yapılan yargılar.", "score": 15},
+                {"text": "Seviye 3: Bir dizi gerçek veya durum hakkında yapılan yargılar, bu gerçeklerin veya durumların analizini veya çeşitli seçeneklerin karşılaştırılmasını gerektirir.", "score": 27},
+                {"text": "Seviye 4: Karmaşık gerçekler veya durumlar hakkında yapılan yargılar, çeşitli seçeneklerin analizini, yorumlanmasını ve karşılaştırılmasını gerektirir.", "score": 42},
+                {"text": "Seviye 5: Son derece karmaşık gerçekler veya durumlar hakkında yapılan yargılar, çeşitli seçeneklerin analizini, yorumlanmasını ve karşılaştırılmasını gerektirir.", "score": 60}
+            ],
+            "details": [
+                "Analiz Gerektiren Gerçekler veya Durumlar (Seviye 2), hem operasyonel hem de operasyonel olmayan (ofis gibi) durumları içerir. Bu durumlarda, genellikle basit bir seçenekler listesi bulunur ve bazı durumlarda en iyi eylem yolunu belirlemek için olayların, sorunların veya müşteri durumlarının detaylı olarak değerlendirilmesi gerekir; örneğin, personel seçimi, personel sorunlarının çözülmesi, problem çözme, karmaşık olmayan ekipmanlarda arıza bulma.",
+                "Analiz ve Karşılaştırma Gerektiren Gerçekler veya Durumlar (Seviye 3), hem operasyonel hem de operasyonel olmayan durumları içerir. Burada, genellikle basit bir seçenekler listesi bulunur ve çeşitli durumlarda olayların, sorunların  detaylı olarak değerlendirilmesi ve uygun eylem yolunun belirlenmesi gerekir. Bu tür analiz ve yargı örnekleri, karmaşık ekipmanlarda arıza bulma, müşteri değerlendirmesi, iş ile ilgili sorunların tespiti, karmaşık finansal sorgulamalar veya tutarsızlıkların analizi gibi durumları içerir.",
+                "Karmaşık (Seviye 4), analiz edilmesi ve değerlendirilmesi gereken, genellikle çelişkili bilgi veya göstergeler içeren birden fazla bileşenden oluşan komplike durumları ifade eder; örneğin, uzman klinik durumların değerlendirilmesi, karmaşık finansal eğilimlerin analizi, ciddi disiplin vakalarının araştırılması ve değerlendirilmesi.",
+                "Yorumlama (Seviye 4 ve 5), karmaşık olayları, problemleri veya müşteri tanımlamada ve değerlendirmede yargı kullanımını ifade eder. Burada, çeşitli seçenekler ve her bir seçeneğin sonuçları dikkate alınmalıdır.",
+                "Son Derece Karmaşık (Seviye 5), analiz edilmesi ve değerlendirilmesi gereken, genellikle çelişkili bilgiler içeren ve bazı bilgilerin mevcut olmadığı durumları ifade eder. Bu tür bir analiz ve yargı, genellikle alanında uzman olan iş sahipleri tarafından yapılan işlerde gerekli olabilir ve bu durumlar, belirgin çözümler sunmayan, özel özelliklere sahip ve karmaşık yönleri olan durumları içerebilir."
+            ]
+        },
+        {
+            "question_id": 4,
+            "question": "Planlama ve Organizasyon Becerileri",
+            "definition": "Bu faktör, iş sorumluluklarını tatmin edici bir şekilde yerine getirmek için gereken planlama ve organizasyon becerilerini ölçer. Operasyonel veya operasyonel olmayan hizmetlerin, departmanların, vardiyaların, toplantıların, konferansların ve stratejik planlamanın planlanması veya organizasyonu gibi faaliyetler için gereken becerileri dikkate alır. Ayrıca, bu faaliyetlerdeki karmaşıklık ve belirsizlik derecesini de göz önünde bulundurur.",
+            "options": [
+                {"text": "Seviye 1: Kendi günlük iş görevlerini veya faaliyetlerini organize eder.", "score": 6},
+                {"text": "Seviye 2: Basit görevlerin, faaliyetlerin veya programların planlanması ve organizasyonu, bazıları sürekli olabilir.", "score": 15},
+                {"text": "Seviye 3: Bir dizi karmaşık faaliyet veya programın planlanması ve organizasyonu, bu faaliyetlerin planlarının oluşturulmasını ve ayarlanmasını gerektirir.", "score": 27},
+                {"text": "Seviye 4: Geniş bir yelpazedeki karmaşık faaliyetlerin veya programların planlanması ve organizasyonu, bazıları sürekli olabilir, bu planların veya stratejilerin oluşturulmasını ve ayarlanmasını gerektirir.", "score": 42},
+                {"text": "Seviye 5: Uzun vadeli stratejik planların oluşturulması, belirsizlikleri içerir ve tüm organizasyon üzerinde etkili olabilir.", "score": 60}
+            ],
+            "details": [
+                "Basit Görevler, Faaliyetler veya Programlar (Seviye 2) birkaç basit görev, faaliyet veya programı ifade eder, bunlar bireysel olarak karmaşık değildir, örneğin başkaları için toplantılar düzenlemek.",
+                "Planlama ve Organizasyon (Seviye 2), personel, hastalar veya müşteriler için zaman/faaliyet planlaması ve organizasyonunu içerir, burada planlarda kısa vadeli ayarlamalar yapma ihtiyacı vardır; örneğin, karmaşık olmayan personel vardiyaları, işleri veya müşteri ihtiayaçlarının  planlanması, personele iş atama, bireysel hasta/müşteri bakımının planlanması, hesapların yasal son teslim tarihlerine göre hazırlanması, komite toplantı döngülerine göre idari işlerin planlanması gibi.",
+                "Bir Dizi Karmaşık Faaliyetin Planlanması ve Organizasyonu (Seviye 3), karmaşık personel veya iş planlamasını içerir, burada görevleri, durumları veya personeli günlük olarak tahsis etme ve yeniden tahsis etme gerekliliği vardır. Ayrıca, diğer profesyoneller ve ajanslarla faaliyetlerin koordine edilmesi için gereken becerileri içerir; örneğin, iş sahibinin ana kişisi olduğu durumlarda vaka konferanslarını veya sevkiyat planlamasını organize etme, burada önemli miktarda detaylı planlama gereklidir. Bu genellikle bir dizi diğer profesyonel veya ajansı içerir. İş sahibinin planı başlatma veya faaliyet alanını koordine etme pozisyonunda olması gerekir. Bu tür faaliyetlere katılmak, bu seviyede planlama ve organizasyon becerilerini gerektirmez.",
+                "Karmaşık (Seviyeler 3 ve 4), analiz edilmesi ve değerlendirilmesi gereken, genellikle çelişkili bilgi veya bileşenlerden oluşan durumları ifade eder.",
+                "Geniş Bir Yelpazedeki Karmaşık Faaliyetlerin Planlanması ve Organizasyonu (Seviye 4), departmanlar, hizmetler veya ajanslar arasında veya içinde etkili olan programların planlanmasını içerir.",
+                "Plan Oluşturma (Seviyeler 4 ve 5), planların veya stratejilerin geliştirilmesi, yapılandırılması ve zamanlamasının yapılmasını ifade eder.",
+                "Uzun Vadeli Stratejik Planlar (Seviye 5), en azından bir yıl sonrasını kapsar, hizmet/direktörlük/organizasyonun genel hedef ve politikalarını dikkate alır ve operasyonel bir çerçeve oluşturur."
+            ]
+        },
+        {
+            "question_id": 5,
+            "question": "Fiziksel Beceriler",
+            "definition": "Bu faktör, iş görevlerini yerine getirmek için gereken fiziksel becerileri ölçer. El-göz koordinasyonu, duyusal beceriler (görme, işitme, dokunma, tatma, koku alma), çeviklik, maniplasyon, hız ve doğruluk gereksinimleri, klavye ve sürüş becerileri dikkate alınır.",
+            "options": [
+                {"text": "Seviye 1: Pozisyon, iş ile ilgili fiziksel beceriler açısından minimal talep içerir.", "score": 6},
+                {"text": "Seviye 2: Pozisyon, genellikle bir süre pratik yaparak veya pratik eğitim sırasında elde edilen fiziksel becerileri gerektirir; örneğin, standart sürüş veya klavye becerileri; bazı araçlar ve ekipman türlerinin kullanımı.", "score": 15},
+                {"text": "Seviye 3: (a) Pozisyon, belirli bir hız veya doğruluk gerektiren görevleri yerine getirmek için gelişmiş fiziksel beceriler gerektirir. Bu beceri seviyesi, ileri düzey veya yüksek hızlı sürüş; ileri düzey klavye kullanımı; gelişmiş duyusal beceriler veya hata payı dar olan nesneleri veya kişileri manipüle etme gereksinimi içerebilir. (b) Pozisyon, doğruluğun önemli olduğu, ancak hız için özel bir gereksinim bulunmayan yüksek düzeyde gelişmiş fiziksel beceriler gerektirir. Bu beceri seviyesi, ince aletler veya malzemelerle manipülasyon gerektirebilir.", "score": 27},
+                {"text": "Seviye 4: Pozisyon, yüksek bir hassasiyet veya hız ve yüksek düzeyde el, göz ve duyusal koordinasyon gerektiren yüksek derecede gelişmiş fiziksel beceriler gerektirir.", "score": 42},
+                {"text": "Seviye 5: Pozisyon, en yüksek düzeyde fiziksel beceriler gerektirir; burada yüksek düzeyde hassasiyet veya hız ve en yüksek düzeyde el, göz ve duyusal koordinasyon gereklidir.", "score": 60}
+            ],
+            "details": [
+                "Pratik Yoluyla Elde Edilen Fiziksel Beceriler (Seviye 2), iş sahiplerinin görevde veya önceki ilgili deneyimler aracılığıyla geliştirdiği becerileri içerir; örneğin, temizlik, yemek hizmetleri veya benzeri ekipmanların kullanımı. Ayrıca, dar alanlarda tekerlekli sandalyeleri/taslakları manevra etme, hastaları/klientleri taşımak için kaldırma ekipmanlarını kullanma, araç kullanma, intramüsküler aşılar/enjeksiyonlar ve duyusal becerilerin kullanımı gibi durumları içerir.",
+                "Standart Klavye Becerileri (Seviye 2), zaman içinde öğrenilen veya eşdeğeri ile eğitim almış olanların kullandığı becerileri içerir.",
+                "Özel Gereksinim (Seviye 3a), iş taleplerinin ortalamanın üzerinde olduğunu ve gereken çeviklik, koordinasyon veya duyusal beceriler seviyesine ulaşmak için özel eğitim veya önemli deneyim gerektirdiğini ifade eder.",
+                "İleri Düzey veya Yüksek Hızlı Sürüş (Seviye 3a), Büyük Mallar Araçları, Yolcu Taşıma Araçları veya Ambulans Sürüş Testi gibi gereksinimlerin bulunduğu ağır yük araçları, ambulans, minibüs veya dorse ile sürüşü içerir.",
+                "İleri Düzey Klavye Kullanımı (Seviye 3a), nitelikli daktilograf/kelime işlemci operatörlerinin  kullandığı, yada grafik çizimi, belli bilgisayar programları kullanma örneğin finans, insan kaynakları gibi  gibi becerileri içerir.",
+                "İleri Düzey Duyusal Beceriler (Seviye 3a), duyusal, el ve göz koordinasyonu gerektiren becerileri içerir; örneğin, sesli daktilo ile yazma gereksinimleri. Ayrıca, konuşma veya dil kusurlarını tanımlamak için dinleme becerileri gibi belirli geliştirilmiş duyusal becerileri içerir.",
+                "Uzmanlık gerektiren bilgiyi pratik bilgileri kullanma (Seviye 3a), resmi bir eğitim kursu ve düzenli güncellemeler gerektiren bir beceri seviyesini ifade eder.",
+                "İnce Araçlar veya Malzemelerle Manipülasyon (Seviye 3b), örneğin, mikroskop altında malzemeleri manipüle etme, ince tornavida veya benzeri ekipmanları kullanma, cerrahi ekipmanları monte etme,CNC tezgahlarını kullanmak, intravenöz enjeksiyon yapma gibi becerileri içerir.",
+                "Yüksek Düzeyde Gelişmiş Fiziksel Beceriler (Seviye 4), örneğin, cerrahi müdahaleler, entübasyon, trakeostomi, dikiş, çeşitli manuel fizyoterapi tedavileri veya endoskopi yapma, ileri yazlım, ar-ge çalışmaları, ileri derecede komplike makine veya ileri derecede CNC tezgahı kullanma  gibi becerileri içerir.",
+                "En Yüksek Düzeyde Fiziksel Beceri (Seviye 5), örneğin, kapalı cerrahi veya lazer cerrahisi veya IVF prosedürleri, ileri derecede komplike billgisayar programları kullanma, yazılım gerçekleştirme, yeni ürün üretme, uçak, tren veya helikopter gibi en yüksek düzeyde becerileri içerir."
+            ]
+        },
+        {
+            "question_id": 6,
+            "question": "Müşteri ve İşe İlişkin Sorumluluklar",
+            "definition": "Bu faktör,operasyonların yönetimi, müşteri ilişkilierin, finans veya ik gibi alaanların yönetimini, hasta/klient bakımını, tedavisini ve terapilerini üstlenme sorumluluklarını ölçer.",
+            "options": [
+                {"text": "Seviye 1: Müşterilere basit konularda yardımcı olur veya iş ile ilgili küçük oranda sorumluluklar alır.", "score": 4},
+                {"text": "Seviye 2: Müşteri, İş veya  aile üyeleri  için genel spesifik olmayan tavsiye, bilgi, rehberlik veya yardımcı hizmetler sağlar.", "score": 9},
+                {"text": "Seviye 3:\n\n(a) Müşterilerin doğrudan sorunları ile ilgilenir\n(b) Müşterileri (dahili müşteriyi de kapsar) için temel  teknik hizmetler sağlar.\n(c) Temel konularda  tavsiye verir.", "score": 15},
+                {"text": "Seviye 4:\n\n(a)  Opersyonları yürütür  ve hazır paketlerini uygular.\n(b) İç ve dış müşteri için  teknik hizmetler sağlar.\n(c) iş ve müşteri ihtiyaçarı ile  ilgili tavsiye verir.", "score": 22},
+                {"text": "Seviye 5:\n\n(a) Ar-ge, ürün veya hizmet paketleri geliştirir.\n(b) Uzman kteknik hizmetler sağlar.\n(c) Müşterileri ile ilgili özel tavsiyelerde bulunur.", "score": 30},
+                {"text": "Seviye 6:\n\n(a) Uzmanlaşmış sistemler  geliştirir.\n(b) Yüksek derecede uzmanlaşmış teknik hizmetler sağlar.\n(c) Tanımlanmış müşteri gruplarının ihtiyaçları  ile ilgili yüksek derecede uzmanlaşmış tavsiyelerde bulunur.\n(d) Teknik veya  hizmetler için bir alt bölümün doğrudan görevlerini yürütmesi ve denetlenmesinden sorumludur.", "score": 39},
+                {"text": "Seviye 7:Bütün departmanın fonksiyonlarından, sonuçlarından ve teslimatından sorumludur.", "score": 49},
+                {"text": "Seviye 8: Kurumun bütün operasyonel ve  hizmetlerinin sağlanması için genel (overall) kurumsal sorumluluk taşır.", "score": 60}
+            ],
+            "details": [
+                "Seviye 2 veya Üzeri: Etkinlikler, normal görevlerin önemli bir yönü olmalıdır.",
+                "Doğrudan Müşteriler (Seviye 2): Genellikle bire bir, yüz yüze veya telefon yoluyla gerçekleştirilen hizmetler; örneğin, resepsiyon veya santral hizmetleri, yemek servisi, yatak veya firmanın temizliği gibi.",
+                "Müşterilerin ve operasyonun gerektirdiği hizmetler (Seviye 3a): Müşterinin görünen ihtiyaçlarını kapsayan  görevleri içerir.",
+                "Temel Teknik Hizmetler (Seviye 3b): Operasyonel hizmetlerin sağlanmasında kullanılan özel ekipmanların temizlenmesi, üretim ekipmanın kullanıma  hazır hale getirilmesi, örneğin kalıpların devreye alınması, araçların kullanıma hazır hale getirilmesi, sterilize edilmesi veya paketlenmesi; tanı test örneklerinin rutin olarak alınması veya işlenmesi; tıbbi/teknik/laboratuvar destek çalışmaları gibi görevleri içerir.",
+                "Temel Teknik Tavsiye (Seviye 3c): Teknik olarak uzman olmayan çalışanları sağladığı basit teknik tavsiyeleri içerir; örneğin, acil çağrı hizmetleri, resepsionda bilgi verme vb.",
+                "Bakım ve İşleri  Uygulama (Seviye 4a): Başkaları tarafından belirlenen / planlanan onarım, bakım, terapi veya tedavi programlarını yürütür. Bu, bakım programında veya paketinde küçük değişiklikler yapmayı ve ilerleme hakkında geri bildirim sağlamayı içerebilir. Ayrıca, genel bir bakım ve işleri bitirme programı içerir.",
+                "Operasyonel Teknik Hizmetler Sağlama (Seviye 4b): Örneğin, sorunlara ilişkin ilk tanıyı koyma, buna ilişkin test örneklerinin  taranması,  testlerin yapılması veya operasyon için kullanılan özel veya karmaşık ekipmanların bakımı veya kalibrasyonu gibi görevleri içerir.",
+                "Tavsiyelerde / Çözüm Önerilerinde Bulunma (Seviye 4c): Operasyonların sorunsuz yürüyebilemsi  için katkıda bulunan tavsiyelerde bulunur; önleyici  teşvikleri de  içerir. Ayrıca, hastalar/klientler için tesis/hizmetlerin kaydı, denetimi veya kalite güvencesi ile ilgili işleri de kapsar; örneğin, hemşirelik evlerinin kaydı ve/veya denetimi, yaşlı bakım evlerinde ilaçların depolanması ve kullanımı denetimi.",
+                "Bakım Programları/Bakım Paketleri Geliştirme (Seviye 5a): Bakım ihtiyaçlarının değerlendirilmesi ve uygun bakım programları/paketlerinin geliştirilmesi, bunların iş sahibi tarafından veya başkaları tarafından uygulanmasını içerir. Ayrıca, bakım programları/paketleri konusundaki klinik/profesyonel tavsiyeleri içerir.",
+                "Uzman Klinik Teknik Hizmetler Sağlama (Seviye 5b): Örneğin, tanı test sonuçlarını yorumlama, karmaşık tanısal prosedürler gerçekleştirme, karmaşık operasyonel veya teknik ekipmanı işleme ve yorumlama, uzmanlık gerektiren cihazlar inşa etme, yüksek derecede uzmanlaşmış veya yüksek karmaşıklıkta ekipmanları kalibrasyon veya bakımını yapma gibi görevleri içerir.",
+                "Uzmanlaşmış Tavsiyelerde Bulunma (Seviye 5c): Hastaların/klientlerin tanı, bakım veya eğitimi için katkıda bulunan uzmanlaşmış tavsiyelerde bulunur; örneğin, bireysel hasta bakımı ile ilgili klinik eczacılık veya diyetetik tavsiyeler, tesis/hizmetlerin kayıt, denetim veya kalite güvencesine yönelik uzman katkısı. Bu seçenek, bakım programları geliştirmeyen işler için geçerlidir; çünkü bunlar Seviye 5a kapsamında ele alınır.",
+                "Uzmanlaşmış Operaysonel Programları Geliştirme (Seviye 6a): Bu sorumluluğun derinliğini ve genişliğini dikkate alır. Uzmanlık alanında çalışan operasyole çalışanlar genellikle bu düzeyde bakım sağlar.",
+                "Yüksek Derecede Uzmanlaşmış  Teknik Hizmetler Sağlama (Seviye 6b): Sorunların tanı, bakım veya tedavisine katkıda bulunan yüksek derecede uzmanlaşmış opeasyonel teknik hizmetler sağlar; örneğin, maksillofasiyal protez hizmeti /SAP danışmanlığı gibi."
+            ]
+        },
+        {
+            "question_id": 7,
+            "question": "Politika ve Hizmet Geliştirme Uygulaması İçin Sorumluluklar",
+            "definition": "Bu faktör, politika ve/veya hizmetlerin geliştirilmesi ve uygulanmasındaki iş sorumluluklarını ölçer. Sorumluluğun doğası ve iş sahibinin ilgili karar alma sürecindeki katkı düzeyi, örneğin karar vericilere önerilerde bulunma, dikkate alınır. Ayrıca, ilgili politikaların veya hizmetlerin bir işlev, bölüm, direktörlük, tüm kurum veya daha geniş bir alanla ilgili olup olmadığı ve sorumluluğun diğerleriyle paylaşım derecesi de göz önünde bulundurulur.",
+            "options": [
+                {"text": "Seviye 1: Kendi rolündeki politikaları başkaları tarafından belirlenmiş şekilde uygular, hizmet geliştirme sorumluluğu yoktur, ancak politikalar, prosedürler veya olası gelişmeler hakkında yorum yapması istenebilir.", "score": 5},
+                {"text": "Seviye 2: Kendi çalışma alanındaki politikaları uygular ve kendi çalışma alanında iş uygulamaları veya prosedürlerinde değişiklikler önerir.", "score": 12},
+                {"text": "Seviye 3: Kendi çalışma alanındaki politikaları uygular ve kendi alanının ötesinde etki yaratan politika veya hizmet değişiklikleri önerir.", "score": 21},
+                {"text": "Seviye 4: Politika uygulamasından ve bir hizmet veya birden fazla faaliyet alanında ayrılmış politika veya hizmet geliştirmeden sorumludur.", "score": 32},
+                {"text": "Seviye 5: Bir direktörlük veya eşdeğer birim için politika uygulaması ve politika veya hizmet geliştirme sorumluluğuna sahiptir.", "score": 45},
+                {"text": "Seviye 6: Organizasyon genelinde veya ötesinde etki yaratan büyük politika uygulamaları ve politika veya hizmet geliştirme için kurumsal sorumluluğa sahiptir.", "score": 60}
+            ],
+            "details": [
+                "Politikalar (Seviye 1 ve Üzeri): En iyi uygulama, yasal gereklilikler veya hizmet ihtiyaçlarına dayalı olarak belgeye dökülmüş bir yöntemdir.",
+                "Kendi Rolünde Politikaları Takip Etme (Seviye 1): Kendi işini etkileyen politika yönergelerine uyma sorumluluğunu ifade eder, değişikliklerin uygulanmasını sağlama konusunda proaktif olma gerekliliği bulunmaz.",
+                "Politikaları Uygulama (Seviye 2 ve Üzeri): Yeni veya revize edilmiş politikaların uygulamaya konması ve hayata geçirilmesi anlamına gelir; örneğin, personel uygulamaları ile ilgili politikaların uygulanması, iş sahibinin politikayı veya hizmeti değiştirme konusunda proaktif olması gerekmektedir. Bu, Seviye 1 tanımında kapsanan yeni politika yönergelerinin sadece takip edilmesinden daha yüksek bir sorumluluk seviyesidir.",
+                "Kendi Çalışma Alanı (Seviyeler 2 ve 3): Hedef bölüm/birim anlamına gelir.",
+                "Politika veya Hizmet Değişiklikleri Önerme (Seviye 3): Politika değişiklikleri öneren çalışma gruplarında yer almayı içerir; bu, işin ayrılmaz bir parçasıdır (tek seferlik bir egzersiz değil). Bu seviyede, politika veya hizmet değişiklikleri diğer disiplinler, bölümler veya hizmet alanlarını etkilemelidir.",
+                "Kendi Alanının Ötesinde (Seviye 3): Kendi işlevi/hizmeti/disiplini ve coğrafi alanı değil; örneğin, politika değişiklikleri çok disiplinli (operasyonel veya operasyonel olmayan) takımlardaki diğer disiplinleri veya kendi uzmanlık alanınızın dışındaki alanları etkilemelidir. Bu, kurumun diğer bölgelerinde aynı işlev, hizmet veya disiplini ifade etmez.",
+                "Hizmet (Seviye 4): Direktörlük alt biriminin bir parçası olabilen, bağımsız bir hizmet anlamına gelir; örneğin sağlık sektörüned onkoloji, hematoloji, yaşlı bakım, yemek hizmetleri, muhasebe.",
+                "Politika Uygulaması ve Ayrılmış Politika veya Hizmet Geliştirme İçin Sorumlu (Seviye 4): Politika veya hizmet geliştirme ve pratikte uygulanmasından genel sorumluluk anlamına gelir. Bu sorumluluğun genellikle iş tanımında belirtilmesi gerekir.",
+                "Direktörlük veya Eşdeğer (Seviye 5): Opeasyonlar & Üretim Hizmetleri, Çocuk Hizmetleri, Toplum Hizmetleri, Emlak Hizmetleri, Otel Hizmetleri, Mali İşler Direktörlüğü ve İnsan Kaynakları Direktörlüğü gibi alanları ifade eder.",
+                "Kurumsal Sorumluluk (Seviye 6): Organizasyon genelinde veya ötesinde etki yaratan büyük politika uygulamaları ve politika veya hizmet geliştirme sorumluluğunu ifade eder; örneğin, İnsan Kaynakları Direktörü, Kurumsal Hizmetler Direktörü gibi, başkan hariç belirli bir politika veya hizmet geliştirme alanında en yüksek sorumluluğu taşıyanlar."
+            ]
+        },
+        {
+            "question_id": 8,
+            "question": "Mali ve Fiziksel Kaynaklar İçin Sorumluluklar",
+            "definition": "Bu faktör, işin mali kaynaklar (nakit, çekler, senetler, borç ve alacaklar, fatura ödemesi, bütçeler, gelirler, gelir yaratma) ve fiziksel varlıklar (klinik, ofis ve diğer ekipmanlar; araçlar ve enstrümanlar; araçlar, tesisler ve makineler; binalar, armatürler ve demirbaşlar; hastaların/müşterilerin veya başkalarının kişisel eşyaları; mallar, ürünler, stoklar ve malzemeler) üzerindeki sorumluluklarını ölçer. Bu, sorumluluğun niteliğini (örneğin dikkatli kullanım, güvenlik, bakım, bütçe ve sipariş sorumlulukları); sorumluluğun ne sıklıkta uygulandığını; kaynakların değerini ve sorumluluğun başkalarıyla ne ölçüde paylaşıldığını dikkate alır.",
+            "options": [
+                {"text": "Seviye 1: İş sırasında kullanılan ekipman ve kaynaklar ile ilgili kişisel özen yükümlülüğüne uyar.", "score": 5},
+                {"text": "Seviye 2: (a) Düzenli olarak nakit, çek, hasta değerli eşyalarıyla ilgilenir veya işlem yapar. Veya (b) Kendisinin kullanmadığı ekipmanların güvenli kullanımından sorumludur. Veya (c) Stok kontrolünün ve/veya stok güvenliğinin sürdürülmesinden sorumludur. Veya (d) Küçük nakit/finansal ödemeler için yetkili imza sahibidir. Veya (e) Pahalı veya çok karmaşık ekipmanların güvenli kullanımından sorumludur.", "score": 12},
+                {"text": "Seviye 3: (a) Nakit/finansal ödemeler için yetkili imza sahibidir. Veya (b) Bazı fiziksel varlıkların veya malzemelerin satın alınmasından sorumludur. Veya (c) Departman/hizmet bütçelerinin veya mali girişimlerin oluşturulmasına katkıda bulunur veya bunları izler. Veya (d) Bir departman/hizmet için bütçeden delege edilmiş bir bütçe tutar. Veya (e) Fiziksel varlıkların kurulumu, onarımı ve bakımı için sorumludur.", "score": 21},
+                {"text": "Seviye 4: (a) Bir departman/hizmet için bütçe sahibidir. Veya (b) Bir departman/hizmet için bütçe belirlemekten sorumludur. Veya (c) Bir departman/hizmet için tüm fiziksel varlıkların veya malzemelerin tedarikinden veya bakımından sorumludur.", "score": 32},
+                {"text": "Seviye 5: (a) Birkaç hizmet için bütçeden sorumludur. Veya (b) Birkaç hizmet için bütçe belirlemekten sorumludur. Veya (c) Birkaç hizmet için fiziksel varlıklardan sorumludur.", "score": 45},
+                {"text": "Seviye 6: Bir kuruluşun mali kaynakları ve fiziksel varlıkları için kurumsal sorumluluğa sahiptir.", "score": 60}
+            ],
+            "details": [
+                "Ekipmanlar ve kaynaklarla ilgili kişisel özen yükümlülüğü (Seviye 1), ortak ekipmanların ve tesislerin dikkatli kullanımı anlamına gelir. Kişisel kullanım için malzeme sipariş etmek de bu seviyede yer alır.",
+                "Düzenli olarak (Seviye 2a), ortalama olarak haftada en az bir kez anlamına gelir.",
+                "Ekipmanların güvenli kullanımı (Seviye 2b), diğer personel veya müşteriler tarafından kullanılmak üzere ekipmanların sökülmesi ve monte edilmesini içerir. Ayrıca, belirli bir yer veya faaliyet alanı için ofis makineleri veya temizlik ekipmanları gibi ekipmanlar için genel sorumluluğu da içerir.",
+                "Stok kontrolünün sürdürülmesi (Seviye 2c), düzenli olarak belirlenmiş bir nokta/tedarikçiden malların/stokların yeniden sipariş edilmesi sorumluluğunu içeren işler için uygundur.",
+                "Stok güvenliği (Seviye 2c), işin önemli bir özelliği olarak sorumluluğun bulunduğu işleri kapsar, örneğin, önemli miktarda malzeme güvenliğinden sorumlu olmak. Ayrıca, bir departmanın anahtarını taşımayı içerir, ancak vardiya için yiyecek deposu veya ilaç dolabı anahtarını tutmak bu seviyede değerlendirilmek için yeterli değildir.",
+                "Küçük nakit/finansal ödemeler için yetkili imza sahibi (Seviye 2d), örneğin, seyahat giderlerini, fazla mesai ödemelerini, toplamda aylık yaklaşık 10.000 TL nin altında olan ajans/bank personeli zaman çizelgelerini \"onaylama\" gibi işlemleri içerir. Ayrıca, gider tabloları veya satın alma belgeleri gibi belgelerin/malumatların mali doğrulamasını yapma sorumluluğunu da içerir, bu miktarlarla sınırlıdır ve önemli ve sürekli bir iş sorumluluğudur. Bu rol genellikle finans departmanında yürütülür.",
+                "Pahalı ekipmanların güvenli kullanımı (Seviye 2e), kişisel olarak kullanılan tek bir ekipmanın değerinin 200.000 TL veya daha fazla olduğu durumları ifade eder.",
+                "Çok karmaşık ekipmanlar (Seviye 2e), radyografi ekipmanı gibi karmaşık, detaylı ve kullanımı zor olan tek bir ekipmanın kişisel kullanımını ifade eder.",
+                "Yetkili imza sahibi (Seviye 3a), örneğin seyahat giderlerini veya fazla mesai ödemelerini, ajans/bank personeli zaman çizelgelerini ayda yaklaşık 10.000 TL veya daha fazla \"onaylama\" gibi işlemleri içerir. Ayrıca, gider tabloları veya satın alma belgeleri gibi belgelerin/malumatların mali doğrulamasını yapma sorumluluğunu da içerir; bu miktarlarla sınırlıdır ve önemli ve sürekli bir iş sorumluluğudur. Bu rol genellikle finans departmanında yürütülür.",
+                "Bazı fiziksel varlıkların veya malzemelerin satın alınmasından sorumlu olma (Seviye 3b), yıllık yaklaşık 100.000 TL veya daha fazla değerde siparişlerin satın alınması veya onaylanması sorumluluğunu içerir. Bu seviye, maliyet, kalite, güvenilirlik vb. dikkate alınarak tedarikçileri seçme yetkisinin bulunduğu işler için uygundur.",
+                "İzleme (Seviye 3c), belirlenmiş mali kılavuzlarla uyumlu ve önceden belirlenmiş bütçe limitleri içinde olduğundan emin olmak için düzenli olarak bir dizi mali bilgi/hesabı gözden geçirmeyi gerektiren durumlar için geçerlidir ve sürekli bir iş sorumluluğudur.",
+                "Mali girişimler (Seviye 3c), gelir yaratma ve maliyet iyileştirme programlarını içerir.",
+                "Delege edilmiş bütçe (Seviye 3d), bir departman veya hizmet bütçesinin alt bölümü için sorumluluğu bulunan işlere atıfta bulunur. Bu seviye aynı zamanda başka bir yerde tutulan bir bütçeden resmi olarak delege edilmemiş bir bütçe olmaksızın önemli mali harcamaları taahhüt eden işlere de uygulanır, örneğin sosyal hizmetler müşterileri için bakım paketlerinin komisyon edilmesi.",
+                "Kurulum veya onarım ve bakım sorumluluğu (Seviye 3e), ekipman, makine veya binanın yapısı üzerinde onarım ve bakım yapma sorumluluğuna sahip işleri ifade eder. Ayrıca, bir sitenin güvenliğinden genel sorumluluğu da içerir.",
+                "Departman/hizmet (Seviye 4a, b ve c),* bir departman veya hizmet üzerindeki bütçe/fiziksel varlıklar için tam sorumluluğa sahip olunmasını ifade eder. Büyük ve çok yönlü mali/fiziksel hizmetleri içeren durumlarda, bu birkaç hizmetin eşdeğeri olarak kabul edilmelidir (yani, Seviye 5a, b, c).",
+                "Bütçe sahibi (Seviye 4a), bir tahsis edilmiş bütçe içinde harcamaları yetkilendirme ve harcamalar için hesap verebilirlik sorumluluğunu ifade eder.",
+                "Bütçe belirleme (Seviye 4b ve 5b), mali durumu denetleme sorumluluğuna sahip muhasebe faaliyetini ifade eder.",
+                "Tedarikten sorumlu olma (Seviye 4c), tedarikçileri seçme veya maliyet, kalite, teslim süresi ve güvenilirlik gibi unsurlar dikkate alınarak satın almaları yetkilendirme sorumluluğunu ifade eder.",
+                "Birkaç hizmet (Seviye 5a, b ve c),* farklı departmanlar ve/veya hizmetler üzerinde önemli sorumluluk bulunduğunda ve sorumluluğun büyük ve/veya çok yönlü mali/fiziksel hizmetleri kapsadığı durumlarda geçerlidir."
+            ]
+        },
+        {
+            "question_id": 9,
+            "question": "İnsan Kaynakları (İK) Sorumlulukları",
+            "definition": "Bu faktör, çalışanlar, öğrenciler/stajyerler ve eşdeğer pozisyondaki diğer kişilerin yönetimi, denetimi, koordinasyonu, öğretimi, eğitimi ve gelişimi ile ilgili iş sorumluluklarını ölçer.\nBu kapsamda iş planlaması ve dağıtımı; işin kontrolü ve değerlendirilmesi; klinik denetim yapılması; eğitim ihtiyaçlarının belirlenmesi; eğitim programlarının geliştirilmesi ve/veya uygulanması; personel, öğrenciler veya stajyerlerin eğitimi ve sürekli mesleki gelişimi yer almaktadır. Ayrıca işe alım, disiplin, değerlendirme ve kariyer gelişimi gibi personel fonksiyonları ile insan kaynaklarının uzun vadeli gelişiminden sorumluluk da bulunmaktadır.\nVurgu, denetlenen, koordine edilen, eğitilen veya geliştirilen kişilerin sayısından çok, sorumluluğun doğası üzerinedir.",
+            "options": [
+                {"text": "Seviye 1: Kendi çalışma alanındaki yeni veya daha az deneyimli çalışanlara tavsiye verir veya kendi faaliyetlerini ya da işyeri rutinlerini gösterir.", "score": 5},
+                {"text": "Seviye 2: (a) Bir bölüm/hizmetin bir kısmındaki personelin günlük denetimi veya koordinasyonundan sorumludur. Veya (b) Nitelikli personel veya stajyerlerin profesyonel denetiminden düzenli olarak sorumludur. Veya (c) Kendi disiplininde/pratik eğitimde düzenli olarak eğitim vermekten veya temel işyeri değerlendirmeleri yapmaktan sorumludur. Veya (d) Düzenli olarak temel İK tavsiyesi verme sorumluluğunu taşır.", "score": 12},
+                {"text": "Seviye 3: (a) Bir grup personelin günlük yönetiminden sorumludur. Veya (b) Nitelikli personel veya öğrencilerin yerleştirilmesi ve ardından denetiminden sorumludur. Veya (c) Bir dizi temel veya uzman eğitim konusunun öğretimi/verilmesinden sorumludur. Veya (d) Bir dizi konuda temel İK tavsiyesinin verilmesinden sorumludur.", "score": 21},
+                {"text": "Seviye 4: (a) Tek bir fonksiyon veya departman için sorumlu hat yöneticisi olarak görev yapar. Veya (b) Eğitim ve geliştirme programlarının öğretimi veya hazırlanmasından sorumludur. Veya (c) Kapsamlı bir İK hizmeti yelpazesinin sunumundan sorumludur.", "score": 32},
+                {"text": "Seviye 5: (a) Birden fazla departman için sorumlu hat yöneticisi olarak görev yapar. Veya (b) Kuruluş genelinde bir öğretim/eğitim fonksiyonunun yönetiminden sorumludur. Veya (c) Kuruluş genelinde İK fonksiyonunun önemli bir kısmının yönetiminden sorumludur.", "score": 45},
+                {"text": "Seviye 6: İnsan kaynakları veya İK fonksiyonu için kurumsal sorumluluğa sahiptir.", "score": 60}
+            ],
+            "details": [
+                "Günlük denetim veya koordinasyon (Seviye 2a): İş dağıtımı ve kontrolünü içerir. Ayrıca bir yüklenici tarafından istihdam edilen bir veya birden fazla personel grubunun izlenmesi veya denetlenmesi sorumluluğunu da içerir.",
+                "Profesyonel ve operasyonel denetim (Seviye 2b): Profesyonel ve operasyonel uygulayıcıların mesleki uygulamalarını geliştirmek, eğitim ihtiyaçlarını belirlemek ve gelişmek için yansıtabilecekleri süreçtir. Bu, bir akran veya üst tarafından yapılabilir. Değerlendirme amacıyla değil, yalnızca klinik yönetişim vb. bağlamında uygulamayı iyileştirme amacıyla yapılır.",
+                "Düzenli olarak (Seviye 2b, c ve d): Haftada en az bir kez ortalama olarak, ancak daha yoğun dönemler halinde de olabilir, örneğin her yıl altı hafta. Seviye 2'nin üzerinde sorumluluk sürekli olmalıdır.",
+                "Pratik eğitim (Seviye 2c): Örneğin, kaldırma ve taşıma, COSHH düzenlemeleri eğitimi.",
+                "Kendi disiplininde eğitim (Seviye 2c): Kendi veya diğer disiplinlerden kişilere kendi işine bağlı konularda eğitim verilmesi anlamına gelir, örneğin bir muhasebeci, departman yöneticilerine bütçe gereklilikleri konusunda eğitim verir, bir uzman diyetisyen, diğer profesyonellere farklı klinik durumlarda diyetin önemi konusunda eğitim verir.",
+                "Temel işyeri değerlendirmeleri yapmak (Seviye 2c): Örneğin, eğitim değerlendirmeleri gibi pratik becerilerin değerlendirilmesi içerir.",
+                "Temel İK tavsiyesi sağlama (Seviye 2d): Kendi denetledikleri/yönettikleri kişiler dışında kalan personele İK politikaları ve uygulamaları hakkında temel tavsiye verme sorumluluğunu içerir, örneğin, kuruluş içinde işe alım prosedürleri ve uygulamaları hakkında.",
+                "Günlük yönetim (Seviye 3a): Aşağıdakilerin tamamı veya çoğundan sorumludur: şikayet ve disiplinin ilk aşamaları; değerlendirme, atama paneli üyesi olarak görev yapma; personelin uygun eğitimi almasını sağlama; iş performansını ve ilerlemeyi gözden geçirme; iş dağıtımı ve kontrolü.",
+                "Tahsis veya yerleştirme ve sonrasında denetim sorumluluğu (Seviye 3b): Eğitim sağlayıcılarla bağlantı kurmayı, eğitim amaçlı personele öğrencilerin/stajyerlerin tahsis edilmesini, öğrenci/stajyer kayıtlarının veya değerlendirmelerinin tamamlanmasını sağlar.",
+                "Temel veya uzman eğitim öğretimi/verilmesi sorumluluğu (Seviye 3c): Kişilere ya iş sahibinin uzmanlık alanındaki unsurlar ya da bir dizi temel konuda eğitim vermek için sürekli ve devam eden bir iş sorumluluğunu ifade eder. Eğitim görenler, iş sahibinin mesleğinden ya da meslek dışından olabilir.",
+                "Çeşitli konularda temel İK tavsiyesinin verilmesi sorumluluğu (Seviye 3d): Bir dizi İK konusunda tavsiye ve yorum sağlama sorumluluğunu ifade eder, örneğin, işe alım, şikayet ve disiplin meseleleri, iş hukuku gibi konular ana iş fonksiyonu olarak.",
+                "Hat yöneticisi (Seviye 4a): Kendi personeliniz üzerinde aşağıdakilerin tamamı veya çoğundan sorumludur: değerlendirmeler; hastalık devamsızlığı; disiplin ve şikayet konuları; işe alım ve seçim kararları; kişisel ve kariyer gelişimi; departman iş yükü ve tahsisi (yani, faaliyet alanlarına ilişkin iş veya sorumluluk bloklarının tahsisi ve yeniden tahsisi, sadece bireylere görev dağıtımı değil).",
+                "Tek bir fonksiyon veya departman (Seviye 4a): Yönetim sorumluluğunun önemli olduğu herhangi bir birim anlamına gelir; yönetilen iş gücünün çeşitliliği ve kapsamı göz önüne alındığında departman ile eşdeğer kapsamda.",
+                "Ana iş sorumluluğu olarak eğitim verme veya eğitim geliştirme (Seviye 4b): Eğitimin verilmesi veya eğitim programlarının geliştirilmesi birincil iş fonksiyonlarından biri olarak belirtildiğinde ve/veya ana iş görevi olarak.",
+                "Kurumsal sorumluluk (Seviye 6): Kuruluş genelinde insan kaynakları (İK) ile ilgili sorumluluk."
+            ]
+        },
+        {
+            "question_id": 10,
+            "question": "Bilgi Kaynakları İçin Sorumluluklar",
+            "definition": "Bu faktör, işin bilgi kaynakları (örneğin bilgisayarlaştırılmış; kağıt bazlı; mikrofiş) ve bilgi sistemleri (hem donanım hem de yazılım, örneğin tıbbi kayıtlar) üzerindeki belirli sorumluluklarını ölçer.\nBu, sorumluluğun doğasını (güvenlik; bilgi işleme ve oluşturma; bilgi veritabanlarının veya sistemlerinin oluşturulması, güncellenmesi ve bakımı) ve sorumluluğun başkalarıyla ne ölçüde paylaşıldığını dikkate alır. NHS'de karşılaşılan tüm bilgilerin gizli olduğu varsayılmaktadır.",
+            "options": [
+                {"text": "Seviye 1: Kişisel olarak oluşturulan bilgileri kaydeder.", "score": 4},
+                {"text": "Seviye 2: (a) Veri girişi, metin işleme veya verilerin depolanmasından sorumludur, kağıt veya bilgisayar tabanlı veri giriş sistemlerini kullanır. Veya (b) Ara sıra raporlar, belgeler, çizimler oluşturmak veya geliştirmek için bilgisayar yazılımı kullanma gereksinimi vardır.", "score": 9},
+                {"text": "Seviye 3: (a) Resmi toplantı tutanaklarını alma ve yazıya dökmeden sorumludur. Veya (b) Düzenli olarak raporlar, belgeler, çizimler oluşturmak veya geliştirmek için bilgisayar yazılımı kullanma gereksinimi vardır. Veya (c) Bu işin önemli bir sorumluluğu olduğu durumda bir veya daha fazla bilgi sisteminin bakımından sorumludur.", "score": 16},
+                {"text": "Seviye 4: (a) Başkalarının spesifikasyonlarına uygun olarak bilgi sistemlerini uyarlama/tasarlamadan sorumludur. Veya (b) Bu işin ana sorumluluğu olduğu durumda bir departman/hizmet düzeyinde bir veya daha fazla bilgi sisteminin işletilmesinden sorumludur.", "score": 24},
+                {"text": "Seviye 5: (a) Başkalarının spesifikasyonlarına uygun olarak büyük bilgi sistemlerinin tasarımı ve geliştirilmesinden sorumludur. Veya (b) Bu işin ana sorumluluğu olduğu durumda birden fazla hizmet için bir veya daha fazla bilgi sisteminin işletilmesinden sorumludur.", "score": 34},
+                {"text": "Seviye 6: İşin ana sorumluluğu olarak organizasyon genelinde bilgi sistemlerinin yönetimi ve geliştirilmesinden sorumludur.", "score": 46},
+                {"text": "Seviye 7: Organizasyon için bilgi sistemlerinin sağlanmasından kurumsal olarak sorumludur.", "score": 60}
+            ],
+            "details": [
+                "Kişisel olarak oluşturulan bilgileri kaydetme (Seviye 1), kişisel olarak oluşturulan: Operasyonel gözlemler, Test sonuçları, Kendi muhakeme veya vaka raporları, Personel verileri, Araştırma verileri gibi verilerin hangi formatta kaydedildiğine (el yazısı, kelime işleme, tablolar, veritabanları) bakılmaksızın bu duruma dahildir.",
+                "Veri girişi, metin işleme veya veri depolama (Seviye 2a), kelime işleme, yazı yazma veya çizimler gibi diğer bilgisayarlaştırılmış çıktıları üretmeyi içerir; başkaları tarafından derlenen belgeleri veya notları (örneğin test/araştırma sonuçları, yazışmalar, tıbbi veya personel kayıtları) girmeyi içerir; mevcut kayıtlardan istatistikleri derlemeyi veya toplamayı içerir; tıbbi, personel veya benzer kayıtların \"çekilmesi\" ve/veya dosyalanmasını içerir.",
+                "Ara sıra (Seviye 2b), ortalama olarak ayda en az iki veya üç kez anlamına gelir.",
+                "Raporlar, belgeler, çizimler oluşturmak veya geliştirmek için bilgisayar yazılımı kullanma gereksinimi (Seviye 2b ve 3b), başkaları için raporlar, veritabanları ve tablolar tasarlama ve oluşturma iş gereksinimini ifade eder, burada formülleri ayarlamak veya masaüstü yayıncılık araçlarını kullanmak gerekir. Ayrıca Bilgisayar Destekli Tasarımı (CAD) da içerir.",
+                "Resmi toplantı tutanaklarını alma ve yazıya dökme (Seviye 3a), yönetim kurulu veya mütevelli heyeti toplantıları, vaka konferansları veya benzeri durumlar için formal tutanakların alınması, bunların orijinal toplantıya katılanların ötesindeki bir kitleye yayımlanması ve bu durumun önemli bir iş sorumluluğu olduğu durumları içerir. Departman toplantılarında veya benzer durumlarda not almak veya başkaları tarafından alınan notları işleme durumunu içermez.",
+                "Bilgi sistemleri (Seviye 2b ve 3b), manuel veya bilgisayarlaştırılmış yöntemlerle büyük miktarda bilgiyi kaydetme, depolama veya iletme konusunda sistematik ve yapılandırılmış bir yöntemi ifade eder.",
+                "Düzenli (Seviye 3b), ortalama olarak haftada en az iki veya üç kez anlamına gelir.",
+                "Bir veya daha fazla bilgi sisteminin bakımından sorumlu olmak (Seviye 3c), şu sorumlulukları içerir:",
+                "Yazılım güncellemeleri, bir bilgi sistemi için yardım tesislerini işletmek",
+                "Bilgilerin veya kayıtların depolanması ve geri alınmasının yönetilmesi.",
+                "Bilgi sistemlerini uyarlama/tasarlama sorumluluğu (Seviye 4a ve 5a), yazılım, donanım veya kağıt kopya bilgi sistemlerini değiştirme veya oluşturma konusunda süregelen ve spesifik bir iş sorumluluğuna atıfta bulunur.",
+                "NOT: Seviye 5a, iş sahibinin bir bütün sistemi veya eşdeğerini tasarlama ve geliştirme sorumluluğuna sahip olduğu durumlarda uygundur.",
+                "Bir veya daha fazla bilgi sisteminin işletilmesinden sorumlu olmak (Seviye 4b ve 5b), bilgiyi işleyen, üreten, oluşturan, güncelleyen veya depolayan bir veya daha fazla sistemin işletilmesini yönetme sorumluluğunu içerir.",
+                "Birden fazla departman/hizmet için bir veya daha fazla bilgi sisteminin işletilmesinden sorumlu olmak (Seviye 5b), temel faaliyet olarak bilgi işleyen, üreten, oluşturan, güncelleyen veya depolayan birden fazla departman/hizmet için sorumluluğu içerir.",
+                "Bilgi sistemlerinin yönetimi ve geliştirilmesinden sorumlu olmak (Seviye 6), yalnızca işin ana sorumluluğu olduğu ve tüm organizasyonu kapsadığı durumlarda uygundur.",
+                "Kurumsal sorumluluk (Seviye 7), normalde yönetim kurulu veya eşdeğer düzeyde, organizasyon(lar) genelinde bilgi kaynakları için hesap verebilirlik anlamına gelir."
+            ]
+        },
+        {
+            "question_id": 11,
+            "question": "Araştırma ve Geliştirme Sorumlulukları",
+            "definition": "Bu faktör, uygun metodoloji ve belgelendirme ile desteklenen, operasyonel veya operasyonel olmayan araştırma ve geliştirme (Ar-Ge) faaliyetleri için işin sorumluluklarını ölçer. Bu, ilaçların veya klinik ya da klinik olmayan ekipmanların resmi test edilmesi veya değerlendirilmesini içerir.\nBu, sorumluluğun doğasını (araştırma ve geliştirme faaliyetlerinin başlatılması, uygulanması, denetimi), bunun çalışmanın ayrılmaz bir parçası olup olmadığını veya kişisel gelişim amaçları için araştırma yapılıp yapılmadığını ve sorumluluğun başkalarıyla ne ölçüde paylaşıldığını dikkate alır.",
+            "options": [
+                {"text": "Seviye 1: Kendi çalışması için gerekli olan anketler veya denetimler yapar; ara sıra Ar-Ge, klinik deneyler veya ekipman testlerine katılabilir.", "score": 5},
+                {"text": "Seviye 2: (a) İşin bir gerekliliği olarak düzenli olarak Ar-Ge faaliyeti yürütür. Veya (b) Düzenli olarak klinik deneyler yürütür. Veya (c) Düzenli olarak ekipman testi veya adaptasyonu yapar.", "score": 12},
+                {"text": "Seviye 3: Ana iş gerekliliği olarak bir veya daha fazla resmi araştırma programı veya faaliyeti kapsamında araştırma veya geliştirme çalışmaları yürütür.", "score": 21},
+                {"text": "Seviye 4: İşin bir gerekliliği olarak Ar-Ge programlarını veya faaliyetlerini koordine etmekten ve uygulamaktan sorumludur.", "score": 32},
+                {"text": "Seviye 5: İşin ayrılmaz bir parçası olarak, (bu, finansman sağlama gerektirebilir) Ar-Ge programlarını veya faaliyetlerini başlatmaktan ve geliştirmekten, bu programların daha geniş organizasyonun hedeflerini desteklemesini sağlamaktan sorumludur.", "score": 45},
+                {"text": "Seviye 6: İşin ayrılmaz bir parçası olarak, organizasyon dışındaki etkilere sahip Ar-Ge programlarını başlatmaktan ve geliştirmekten sorumludur, örneğin NHS genelinde veya sağlık hizmetlerinin dışında.", "score": 60}
+            ],
+            "details": [
+                "Araştırma ve Geliştirme (Tüm seviyeler) bu, hammadde ve ekipman gibi testleri ve insan kaynakları, iletişimler, operasyonel eğitimler gibi diğer resmi klinik olmayan araştırma biçimlerini ve resmi klinik araştırmayı içerir. Bu faktör, araştırma veya denemelere aktif doğrudan katılım gerekliliğini ölçer ve bir hastanın araştırmaya dahil olmasının dolaylı etkilerini içermez.",
+                "Ara sıra (Seviye 1) yılda bir veya iki kez böyle projeler veya faaliyetler.",
+                "Denetim yapma (Seviye 1), bina ve tesis denetimleri veya anketleri, fonksiyonel denetimler, klinik denetimler. Araştırma metodolojisi kullanılarak yapılan belirli, bir kerelik karmaşık denetimler Ar-Ge faaliyeti olarak sayılmalıdır (Seviye 2a).",
+                "Ar-Ge faaliyeti yürütme (Seviye 2a), belirli bir alanı veya hizmeti geliştirmeyi amaçlayan karmaşık denetimler de dahil olmak üzere araştırma metodolojisi kullanılarak yapılan denetimleri içerir. Aynı zamanda araştırma sonuçlarının derlenmesini de içerir.",
+                " Denemeler veya ekipman testi yapma (Seviye 2b ve 2c), aktif katılım gerektiren durumlarda uygundur.",
+                "Düzenli olarak (Seviye 2a, 2b ve 2c), bu, çalışmanın düzenli bir özelliğidir, genellikle iş tanımında belirtilir ve ilgili faaliyet, ortalama olarak ayda en az bir kez ve genellikle daha sık gerçekleşir.",
+                "Ana iş gerekliliği (Seviye 3), her çalışma haftasının en azından bir kısmı (haftada ortalama %20 veya daha fazla) için sürekli katılımı gösterir. Bu seviye, yalnızca iş sahibinin normalde bu miktarda katılım gerektiren en az bir proje üzerinde çalışması gerektiğinde uygundur. Yüksek düzeyde katılım sadece bir kerelik bir proje için gerekli olduğunda, iş normal katılım derecesine göre değerlendirilmelidir. Sürekli katılım kriterlerini karşılayan resmi denetimler/soruşturmalar da bu seviyeye dahil edilmelidir.",
+                "Ar-Ge programlarını koordine etmek ve uygulamak (Seviye 4), yerel, bölgesel veya ulusal bir programın genel kontrolünü ele almayı içerir; bu, başka bir yerde yönetiliyor olabilir. Aynı zamanda Ar-Ge faaliyetlerinin proje yönetimini de içerir.",
+                "İşin ayrılmaz bir parçası olarak (Seviye 5), Ar-Ge işin önemli bir parçası olduğunda ve çalışma zamanının önemli bir kısmını aldığında uygundur.",
+                "Başlatma ve geliştirme (Seviye 6), iş sahibinin Ar-Ge programlarını belirlemesi, geliştirmesi ve bunları başlatması gerektiğinde uygundur."
+            ]
+        },
+        {
+            "question_id": 12,
+            "question": "Hareket Özgürlüğü",
+            "definition": "Bu faktör, iş sahibinin kendi eylemleri ve başkalarının eylemleri için ne ölçüde sorumlu olması gerektiğini, kendi inisiyatifini kullanma ve bağımsız hareket etme gerekliliğini ve iş sahibine harekete geçme konusunda tanınan takdiri ölçer.\n\n Bu, iş sahibinin hareket özgürlüğü üzerindeki kısıtlamaları (örneğin, denetim kontrolü; talimatlar, prosedürler, uygulamalar ve politikalar; mesleki, teknik veya mesleki uygulama kuralları veya diğer etik yönergeler; işin faaliyet gösterdiği doğa veya sistem; işin organizasyon içindeki konumu; ve hizmet sunumu için herhangi bir yasal sorumluluğun varlığı) dikkate alır.",
+            "options": [
+                {"text": "Seviye 1: Genellikle yakın denetim altında ve iyi kurulmuş prosedürler ve/veya uygulamalar içinde çalışır ve ulaşılması gereken standartlar ve sonuçlar belirlenmiştir.", "score": 5},
+                {"text": "Seviye 2: Standart işletim prosedürleri (SOP'lar), iyi uygulama, yerleşik emsaller tarafından yönlendirilir ve hangi sonuçların veya standartların elde edilmesi gerektiğini anlar. Referans alınabilecek birileri genellikle mevcuttur ve çalışma örnekleme/rastgele olarak kontrol edilebilir.", "score": 12},
+                {"text": "Seviye 3: Emsaller ve açıkça tanımlanmış mesleki politikalar, protokoller, prosedürler veya davranış kuralları tarafından yönlendirilir. Çalışma denetimden ziyade yönetilir ve sonuçlar/beklentiler belirlenen aralıklarla değerlendirilir.", "score": 21},
+                {"text": "Seviye 4: Beklenen sonuçlar tanımlanmıştır ancak iş sahibi bunların en iyi nasıl elde edileceğine karar verir. İlkeler ve geniş mesleki politikalar veya düzenlemeler tarafından yönlendirilir. Rehberlik, meslektaşlar veya dış referans noktaları tarafından sağlanabilir.", "score": 32},
+                {"text": "Seviye 5: Genel sağlık, örgütsel veya geniş mesleki politikalar tarafından yönlendirilir, ancak çoğu durumda iş sahibi bunların nasıl yorumlanması gerektiğini belirlemelidir.", "score": 45},
+                {"text": "Seviye 6: Hedefler ve standartları belirlemek için genel sağlık hizmeti politikası ve stratejisini yorumlaması gerekir.", "score": 60}
+            ],
+            "details": [
+                "İyi kurulmuş prosedürler ve/veya uygulamalar içinde (Seviye 1) iş sahiplerinin belirlenmiş prosedürleri takip etmeleri gerektiğinde uygundur ve genellikle bu prosedürlerden tavsiye ve rehberlik almadan sapmazlar.",
+                "Standart işletim prosedürleri (SOP'lar), iyi uygulama, yerleşik emsaller tarafından yönlendirilir (Seviye 2) çoğu çalışma faaliyeti için açıkça tanımlanmış yöntemler ve süreçlerin olduğu işler için uygundur. İş sahipleri, belirli bir inisiyatif kullanmalı ve kendi başlarına halledebildikleri durumlarla ilgilenmelidirler, örneğin bir iş sahibi rutin olan sorular ve diğer konularla ilgilenebilir, ancak rutin dışı sorular ve diğer konularla genellikle başkalarına başvurabilir.",
+                "Emsaller ve açıkça tanımlanmış mesleki politikalar, protokoller, prosedürler veya davranış kuralları tarafından yönlendirilir (Seviye 3) iş sahibinin belirlenmiş parametreler içinde hareket etme özgürlüğüne sahip olduğu durumlarda uygundur. Nitelikli profesyonel/klinik/teknik/bilimsel/idari roller genellikle bu gereksinimi karşılar.",
+                "Çalışma denetimden ziyade yönetilir (Seviye 3) iş sahiplerinin uygun mesleki kılavuzlar içinde bağımsız hareket etmeleri gerektiğinde ve ne zaman yöneticilerine başvurmaları gerektiğine karar verdiklerinde uygundur.",
+                "İlkeler ve geniş mesleki politikalar tarafından yönlendirilir (Seviye 4) iş sahibinin tanımlanmış parametreler içinde çalışma konusunda önemli bir takdir yetkisine sahip olduğu durumlarda uygundur. Bu, örneğin belirli bir (klinik veya klinik olmayan) alanda uzman olan veya bölüm/şube yöneticisi olanlar için geçerlidir, örneğin sürekli kişisel gelişim  konusunda uzmanlaşmış bir insan kaynakları işi, belirli bir alanda uzmanlaşmış bir klinik uygulayıcı. Bu seviye ayrıca, bir tanımlanmış dava yükü veya yerel toplulukla ilgili politikaları yorumlama sorumluluğu olan işler için de geçerlidir.",
+                "Bunların nasıl yorumlanması gerektiğini belirleme (Seviye 5) geniş klinik/mesleki/idari/teknik/bilimsel politikaların kendi yorumuna dayalı olarak harekete geçme özgürlüğünü gösterir, örneğin organizasyona bunların nasıl yorumlanması gerektiği konusunda tavsiyelerde bulunma, örneğin danışman, profesyonel ve yönetsel roller. Bu ayrıca, geniş politikalar içinde inisiyatif kullanma özgürlüğüne sahip uzmanlar için de geçerlidir ve gerektiğinde tavsiye alır. Tanım gereği, bu seviyede herhangi bir hizmet veya bölümde yalnızca bir veya çok az sayıda iş bulunabilir.",
+                "Şirketin genel politikası ve stratejisini yorumlaması gereklidir (Seviye 6) minimal kılavuzlarla hareket etme ve başkaları için hedefler ve standartlar belirleme gereksinimi olan işler için uygundur."
+            ]
+        },
+        {
+            "question_id": 13,
+            "question": "Fiziksel Çaba",
+            "definition": "Bu faktör, iş için gerekli olan fiziksel çabanın doğasını, seviyesini, sıklığını ve süresini (benzer bir seviyede sürdürülen çaba veya ani patlayıcı çaba) ölçer. Çaba gerektiren koşulları etkileyebilecek herhangi bir durumu, örneğin rahatsız bir pozisyonda veya dar bir alanda çalışmayı dikkate alır.",
+            "options": [
+                {"text": "Seviye 1: Oturma, ayakta durma ve yürümenin bir kombinasyonu ile az miktarda fiziksel çaba gerektirir. Kısa süreler için hafif fiziksel çaba göstermek gerekebilir.", "score": 3},
+                {"text": "Seviye 2: (a) Çalışma süresinin büyük bir kısmı boyunca kısıtlı bir pozisyonda oturmayı veya ayakta durmayı gerektirir. Veya (b) Vardiya sırasında birkaç kısa dönem boyunca hafif fiziksel çaba gerektirir. Veya (c) Vardiya sırasında birkaç uzun süre için hafif fiziksel çaba göstermek gerekebilir. Veya (d) Vardiya sırasında birkaç kısa süre için orta düzeyde fiziksel çaba göstermek gerekebilir.", "score": 7},
+                {"text": "Seviye 3: (a) Vardiya sırasında birkaç uzun süre boyunca hafif fiziksel çaba gerektirir. Veya (b) Vardiya sırasında birkaç uzun süre için orta düzeyde fiziksel çaba göstermek gerekebilir. Veya (c) Vardiya sırasında birkaç kısa süre için orta düzeyde fiziksel çaba gerektirir.", "score": 12},
+                {"text": "Seviye 4: (a) Sürekli hafif fiziksel çaba gerektirir. veya (b) Vardiya sırasında birkaç uzun süre boyunca orta düzeyde fiziksel çaba gerektirir. veya (c) Vardiya sırasında birkaç kısa süre için yoğun fiziksel çaba gerektirir.", "score": 18},
+                {"text": "Seviye 5: (a) Sürekli orta düzeyde fiziksel çaba gerektirir. veya (b) Vardiya sırasında birkaç kısa süre boyunca yoğun fiziksel çaba gerektirir. veya (c) Vardiya sırasında birkaç uzun süre boyunca yoğun fiziksel çaba gerektirir.", "score": 25}
+            ],
+            "details": [
+                "Hafif fiziksel çaba (Seviye 2 ila 4) iki ila beş kilo ağırlığındaki nesneleri kaldırmak, itmek, çekmek; eğilme/diz çökme/sürünme; dar alanlarda çalışma; yüksekliklerde çalışma; bir seferde bir kilometreden fazla yürüme anlamına gelir.",
+                "Kısıtlı bir pozisyonda oturmak veya ayakta durmak (Seviye 2a) işin doğası gereği kolayca değiştirilemeyen bir pozisyonda olmak anlamına gelir, örneğin klavye başında veri girişi yapmak, telefon kulaklığı takmak, sürüş pozisyonunda olmak, mikroskopla lamları incelemek; kısıtlı bir alanda bir makinenin başında durmak; bir konveyör sistemi üzerinde sandviç hazırlamak veya yemek servisi yapmak.",
+                "Orta düzeyde fiziksel çaba (Seviye 2 ila 5) altı ila on beş kilo ağırlığındaki nesneleri kaldırmak, itmek, çekmek; hastaların kontrollü şekilde tutulması, örneğin ruh sağlığı veya öğrenme güçlükleri durumlarında; ani patlayıcı çaba, örneğin yerinden ani bir çıkışla koşmak; masaları temizlemek, hastaları/ağır yükleri (on beş kilodan fazla) mekanik yardımlarla hareket ettirmek, örneğin vinçler ve arabalar; hastaları/kişileri tedavi veya kişisel bakım amacıyla pozisyona sokmak; hastaları/kişileri yataktan sandalyeye veya benzeri bir yere taşımak anlamına gelir.",
+                "Yoğun fiziksel çaba (Seviye 4 ila 5) on beş kilodan fazla ağırlığındaki nesneleri mekanik yardımcılar olmadan kaldırmak, itmek, çekmek; yerinden ani bir çıkışla bir arabayı iterken koşmak; ağır manuel kazı yapmak, ağır kapları kaldırmak; ağır işlerde bulaşık yıkamak anlamına gelir.",
+                "Ara sıra en az ayda üç kez ancak çalışılan vardiyaların yarısından azında, bir vardiya bir çalışma süresidir.",
+                "Sık sık çalışılan vardiyaların yarısında veya daha fazlasında meydana gelir, bir vardiya bir çalışma süresidir.",
+                "Birçok dönem fiziksel çabanın tekrarlayan ortaya çıkışı olan işlere uygulanır ve ilgili çabanın vardiya başına yalnızca bir kez meydana geldiği işlere uygulanmaz. Örneğin, Seviye 3c bakım veya tedavinin gerçekleştirilebileceği pozisyonlara hastaların mekanik veya insani yardımla tekrar tekrar hareket ettirildiği işleri kapsar.",
+                "Belirtilen ağırlıklar yalnızca örnek niteliğindedir. Değerlendiriciler kaldırma zorluğunu dikkate almalıdır.",
+                "Sürekli sürekli veya neredeyse sürekli. Kısa süreler 20 dakikaya kadar veya 20 dakika dahil sürelerdir. Uzun süreler 20 dakikadan uzun sürelerdir. İşe yürümek veya araba kullanmak dahil değildir."
+            ]
+        },
+        {
+            "question_id": 14,
+            "question": "Zihinsel Çaba",
+            "definition": "Bu faktör, iş için gereken zihinsel çabanın doğasını, seviyesini, sıklığını ve süresini ölçer (örneğin, dikkat; öngörülemeyen iş desenlerine, kesintilere ve son teslim tarihlerini karşılama gereğine tepki verme).",
+            "options": [
+                {"text": "Seviye 1: Genel farkındalık ve duyusal dikkat; normal dikkat ve özen; iş deseni öngörülebilir ve dikkat gerektiren pek fazla talep yoksa arada bir konsantrasyon gereksinimi.", "score": 3},
+                {"text": "Seviye 2: (a) İş deseni öngörülebilir ve dikkat gerektiren pek fazla talep yoksa sık sık konsantrasyon gereksinimi. VEYA (b) İş deseni öngörülemezse arada bir konsantrasyon gereksinimi.", "score": 7},
+                {"text": "Seviye 3: (a) İş deseni öngörülemezse sık sık konsantrasyon gereksinimi. VEYA (b) Uzun süreli konsantrasyon gereksinimi arada bir.", "score": 12},
+                {"text": "Seviye 4: (a) Uzun süreli konsantrasyon gereksinimi sık sık. VEYA (b) Yoğun konsantrasyon gereksinimi arada bir.", "score": 18},
+                {"text": "Seviye 5: Yoğun konsantrasyon gereksinimi sık sık.", "score": 25}
+            ],
+            "details": [
+                "Genel farkındalık ve duyusal dikkat (Seviye 1), günlük aktiviteleri yerine getirirken gereken genel özen, dikkat ve uyanıklık seviyesidir, ancak karmaşık veya ayrıntılı konulara odaklanma gereksinimi yoktur.",
+                "Konsantrasyon (Seviyeler 2'den 4'e kadar) iş sahibinin bir seferde bir veya iki saatlik sürelerde özellikle dikkatli olması gereken durumları ifade eder, örneğin detaylı belgeleri kontrol etme; karmaşık hesaplamalar yapma veya ayrıntılı istatistikleri analiz etme; resmi oturumlara aktif katılım; makine kullanma; araç kullanma; toplantılarda detaylı tutanak alma; tarama testleri/mikroskop çalışmaları yapma; ürün veya hizmet çıktılarını inceleme veya değerlendirme.",
+                "Öngörülemez (Seviyeler 2b ve 3a) iş sahibinin üçüncü bir tarafın talebiyle bir aktiviteden diğerine geçmesini gerektirir. Telefon veya resepsiyon işlerinde sık sık kesintilerle başa çıkmak öngörülemez değildir, ancak sık sık iş sahibinin yaptığı işi değiştirmesine neden oluyorsa (örneğin, acil durum çağrısına yanıt verme veya belirli bilgi taleplerine yanıt olarak bir muhasebe görevinden diğerine geçme) öngörülemez olarak kabul edilir. Bu seviyeler, iş sahibinin yaklaşan bir kesinti hakkında önceden bilgi sahibi olmadığı ancak planlanmış aktiviteleri hemen değiştirmesi gereken işlerde uygundur.",
+                "Uzun süreli konsantrasyon (Seviyeler 3b ve 4a) bir vardiyanın ortalama yarısından fazla süreyle kesintisiz konsantrasyon gerektirir, yasal molalar hariç. Bu, iş sahibinin ayrıntılı, karmaşık ve önemli bir örneğe/Slayta/Belgelerine odaklanmaktan başka pek az görevi olduğu durumlarda uygundur, örneğin sitoloji tarama, klinik kodlama.",
+                "Yoğun konsantrasyon (Seviyeler 4b ve 5) derin zihinsel dikkat gerektirir ve konuyla aktif bir şekilde ilgilenmeyi içerir, örneğin karmaşık operasyonel müdahaleleri gerçekleştirme; mahkemede çapraz sorguya tabi olma, burada iş sahibi yalnızca konuyla sürdürülen konsantrasyona değil, aynı zamanda yanıt verme/aktif katılımda bulunma gereksinimine sahiptir. Bu, bir müşteri veya diğer bir kişinin tepkilerini gözlemleme ve/veya kaydetme gereksiniminden daha fazladır.",
+                "Arada bir, çalışılan vardiyaların yarısından az sıklıkta, bir vardiya bir çalışma dönemidir.",
+                "Sık sık, çalışılan vardiyaların yarısında veya daha fazla sıklıkta, bir vardiya bir çalışma dönemidir."
+            ]
+        },
+        {
+            "question_id": 15,
+            "question": "Duygusal Çaba",
+            "definition": "Bu faktör, klinik veya klinik olmayan görevleri üstlenmek için gereken duygusal çabanın doğasını, seviyesini, sıklığını ve süresini ölçer; bu görevler genellikle zorlayıcı ve/veya duygusal olarak talepkar olarak kabul edilir.",
+            "options": [
+                {"text": "Seviye 1: (a) Zorlayıcı veya duygusal koşullara maruz kalma nadirdir. VEYA (b) Zorlayıcı veya duygusal koşullara arada bir dolaylı maruz kalma.", "score": 5},
+                {"text": "Seviye 2: (a) Zorlayıcı veya duygusal koşullara arada bir maruz kalma. VEYA (b) Zorlayıcı veya duygusal koşullara sık sık dolaylı maruz kalma. VEYA (c) Çok zorlayıcı veya çok duygusal koşullara arada bir dolaylı maruz kalma.", "score": 11},
+                {"text": "Seviye 3: (a) Zorlayıcı veya duygusal koşullara sık sık maruz kalma. VEYA (b) Çok zorlayıcı veya çok duygusal koşullara arada bir maruz kalma. VEYA (c) Çok zorlayıcı veya çok duygusal koşullara sık sık dolaylı maruz kalma.", "score": 18},
+                {"text": "Seviye 4: (a) Travmatik koşullara arada bir maruz kalma. VEYA (b) Çok zorlayıcı veya çok duygusal koşullara sık sık maruz kalma.", "score": 25}
+            ],
+            "details": [
+                "Maruz kalma, gerçek olaylarla ilgilidir ancak duygusal etkisinin derecesi doğrudan veya dolaylı olabilir. Doğrudan maruz kalma, iş sahibinin duygusal talepleri olan bir durum/ müşteri/hasta/klient ile doğrudan karşılaşmasını ifade eder, dolaylı maruz kalma ise iş sahibinin durum ve koşullar hakkında bilgi almasını ancak doğrudan durum/ müşteri/hasta/klient ile karşılaşmamasını ifade eder.",
+                "Dolaylı maruz kalma genellikle yoğunluğu azaltır, bu nedenle örneğin, çok zorlayıcı veya duygusal koşullara dolaylı maruz kalma (örneğin, şiddete maruz kalmış bir çalışan veya çocuk istismarı hakkında rapor yazma) – Seviyeler 3b veya 4b – bunların alt seviyeleri yani Seviyeler 2a veya 3a olarak değerlendirilir.",
+                "Zorlayıcı veya duygusal koşullar (Seviyeler 1'den 3'e kadar) örneğin: Ölümcül hastaların bakımı, Zor müşteri veya aile durumları veya koşulları ile başa çıkma, Şiddetli şekilde yaralanmış bedenler/cesetlerle karşılaşma, Personel,müşteri veya hastalar/klientler veya akrabalara hoş olmayan haberler verme. Bu, disiplin veya şikayet konularını veya yeniden yerleştirme/işten çıkarma durumlarını içerir.",
+                "Çok zorlayıcı (Seviyeler 2c ve 3c) örneğin: Ölüm, Çalışana fiziklse veya cinsel saldırı l veya Çocuk istismarıyla ilgili tutanakları alma veya raporları yazma.",
+                "Çok zorlayıcı veya duygusal koşullar (Seviyeler 3b ve 4b) örneğin: Hastalara ve akrabalara ölümcül hastalık veya beklenmedik ölüm hakkında haber verme; çocuk istismarı veya aile parçalanması ile kişisel olarak ilgilenme, Son derece zorlu davranışları olan kişilerle başa çıkma.",
+                "Travmatik olaylar (Seviye 4a) örneğin: Ciddi bir olayın meydana geldiği yere varma veya hastalar/akrabalardan bu olay nedeniyle ilgilenme, Nadir ayda birden az ortalama sıklıkta anlamına gelir. ",
+                "Arada bir ayda bir veya daha fazla ortalama sıklıkta anlamına gelir. Bu seviye, iş sahibinin yer aldığı koşullar çok ciddi olduğunda, örneğin büyük bir kaza veya olay, ancak ayda birden az gerçekleşiyorsa da uygundur.",
+                "Sık sık haftada bir veya daha fazla ortalama sıklıkta anlamına gelir.",
+                "Şiddet korkusu Çalışma Koşulları altında ölçülür."
+            ]
+        },
+        {
+            "question_id": 16,
+            "question": "Çalışma Koşulları",
+            "definition": "Bu faktör, kaçınılmaz olarak olumsuz çevresel koşullardan (örneğin, kötü hava koşulları, aşırı sıcaklık/soğukluk, kokular, gürültü ve dumanlar) ve sağlık ve güvenlik kontrolleriyle bile kaçınılmaz olan tehlikelerden (örneğin, trafik kazaları, zararlı kimyasalların dökülmesi, hastalar, klientler, akrabalar, bakıcıların agresif davranışları) kaynaklanan taleplerin doğasını, seviyesini, sıklığını ve süresini ölçer.",
+            "options": [
+                {"text": "Seviye 1: Hoş olmayan çalışma koşullarına veya tehlikelere maruz kalma nadirdir.", "score": 3},
+                {"text": "Seviye 2: (a) Hoş olmayan çalışma koşullarına arada bir maruz kalma. VEYA (b) Acil durumlarda yol taşıması kullanma gereksinimi arada bir. VEYA (c) Yol taşıması kullanma gereksinimi sık sık. VEYA (d) Dışarıda çalışma gereksinimi sık sık. VEYA (e) Görsel Ekran Birimi (VEB) ekipmanını çoğu gün daha veya daha az sürekli kullanma gereksinimi.", "score": 7},
+                {"text": "Seviye 3: (a) Hoş olmayan çalışma koşullarına sık sık maruz kalma. VEYA (b) Çok hoş olmayan çalışma koşullarına arada bir maruz kalma.", "score": 12},
+                {"text": "Seviye 4: (a) Tehlikelere bazı maruz kalma. VEYA (b) Çok hoş olmayan çalışma koşullarına sık sık maruz kalma.", "score": 18},
+                {"text": "Seviye 5: Önemli derecede tehlikelere maruz kalma (dikkatsizlik nedeni ile her an ölüm riski ile karşılaşmak ).", "score": 25}
+            ],
+            "details": [
+                "Hoş olmayan çalışma koşullarına maruz kalma nadirdir (Seviye 1), hoş olmayan çalışma koşullarına ayda ortalama üç kezden az maruz kalmayı ifade eder.",
+                "Hoş olmayan çalışma koşulları (Seviyeler 1'den 3'e kadar), doğrudan kir, toz, koku, gürültü, kötü hava koşulları ve aşırı sıcaklıklarla, kontrol altındaki (kapsama alınmış veya sağlık ve güvenlik düzenlemelerine tabi) kimyasallar/örneklerle maruz kalmayı içerir. Sözlü agresyon da hoş olmayan çalışma koşulları olarak değerlendirilmelidir. Ayrıca, vücut sıvıları, kötü çamaşırlar, pireler, bitler, zararlı gazların yakınında olmak da bu seviyeyi içerir, ancak doğrudan temas edilmezse.",
+                "Çok hoş olmayan çalışma koşulları (Seviyeler 3b ve 4b), doğrudan temasla (yakınında olmak değil) vücut sıvıları, kötü çamaşırlar, pireler, bitler, zararlı gazlarla karşılaşmayı ifade eder.",
+                "Tehlikeler (Seviyeler 4'ten 5'e kadar), kontrolsüz ve güvensiz durumlara kaçınılmaz maruz kalma durumunu ifade eder, örneğin, yüz yüze fiziksel agresyon, zararlı kimyasalların dökülmesi, trafik kazaları. Bu seviye, potansiyel tehlikelerin (kimyasallar, laboratuvar örnekleri, elektrik, radyasyon) kontrol altında olduğu veya belirli sağlık ve güvenlik düzenlemelerine tabi olduğu durumlar için geçerli değildir.",
+                "Bazı tehlikelere maruz kalma (Seviye 4a), riskin sınırlanabileceği veya kontrol altına alınabileceği durumlar için uygundur (örneğin, panik alarmları veya kişisel destek sistemleri aracılığıyla) örneğin, acil servisler ve akut ruh sağlığı klinikleri.",
+                "Önemli derecede tehlikelere maruz kalma (Seviye 5), tehlikelere tüm veya çoğu vardiyada maruz kalmayı ve maruziyeti kontrol etme veya sınırlama kapsamının sınırlı olduğu durumlar için uygundur, örneğin, acil ambulans hizmetleri. Bu seviye, potansiyel tehlikelerin (kimyasallar, laboratuvar örnekleri, elektrik, radyasyon) kontrol altında olduğu veya belirli sağlık ve güvenlik düzenlemelerine tabi olduğu durumlar için geçerli değildir.",
+                "Nadir, ortalama ayda üç kezden az anlamına gelir.",
+                "Arada bir, ortalama olarak ayda üç kez veya daha fazla anlamına gelir.",
+                "Sık sık, haftada birkaç kez ve her ilgili vardiyada birkaç kez anlamına gelir.",
+                "İşe gidip gelme sürüşü dahil edilmez."
+            ]
+        }
+    ]
+}

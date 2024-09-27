@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    <title>Anket</title>
+</head>
+<body>
+    <h1 class="text-center mt-3">İŞ DEĞERLENDİRME ANALİZİ</h1>
+    <h6 class="text-center">FİRMALARIN KENDİ İŞ DEĞERLEMELERİNİN OLUŞTURULMASI AMACI İLE HAZIRLANMIŞTIR</h6>
+    <div class="container mt-5">
+        <strong class="text-left">{{ question.id }}. {{ question.question_text }}</strong>  <!-- Düzeltildi -->
+        <p class="text-justify mt-2">{{ question.definition }}</p>
+
+        <form method="POST" action="{{ url_for('survey', soru_id=question.id) }}" class="form-group">  <!-- Düzeltildi -->
+            {{ form.hidden_tag() }}  <!-- CSRF koruma tokeni -->
+            <div class="form-group">
+                {% for option in question.options %}
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input mr-3 mb-3" type="radio" name="options" id="option{{ loop.index }}" value="{{ option.id }}" required>
+                        <label class="form-check-label " for="option{{ loop.index }}">
+                            {{ option.text }} ({{ option.score }} Puan)  <!-- Düzeltildi -->
+                        </label>
+                    </div>
+                {% endfor %}
+            </div>
+
+            <div class="d-flex flex-row justify-content-center">
+                {% if question.id == 16 %}
+                <button type="submit" class="btn btn-danger btn-lg p-2 m-2">Anketi Bitir</button>
+                {% else %}
+                <button type="submit" class="btn btn-primary btn-lg p-2 m-2">Sonraki Soru</button>
+                {% endif %}
+                <button id="toggleDetails" class="btn btn-success btn-lg p-2 m-2" type="button" data-toggle="collapse" data-target="#details" aria-expanded="false" aria-controls="details">
+                    Detayları Göster
+                </button>
+            </div>
+
+            <!-- Detaylar Bölümü -->
+            <div class="collapse mt-2" id="details">
+                <strong>Tanımlar ve Notlar:</strong>
+                {% if details %}
+                    <ul>
+                    {% for detail in details %}
+                        <li>{{ detail }}</li>
+                    {% endfor %}
+                    </ul>
+                {% else %}
+                    <p>{{ details }}</p>
+                {% endif %}
+            </div>
+        </form>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script>
+        // Butonun text ve rengini değiştirme işlevi
+        document.getElementById('toggleDetails').addEventListener('click', function () {
+            var button = this;
+            var isCollapsed = button.getAttribute('aria-expanded') === 'true';
+
+            if (isCollapsed) {
+                button.classList.remove('btn-danger');
+                button.classList.add('btn-success');
+                button.textContent = 'Detayları Göster';
+            } else {
+                button.classList.remove('btn-success');
+                button.classList.add('btn-danger');
+                button.textContent = 'Detayları Gizle';
+            }
+        });
+    </script>
+</body>
+</html>

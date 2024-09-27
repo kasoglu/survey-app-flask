@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Anket Sonuçları</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        .table-striped tbody tr:nth-of-type(odd) {
+            background-color: white;
+        }
+        .ney {
+            font-family: "Clear Sans", sans-serif;
+            font-size: 36px;
+            font-weight: bold;
+            margin: 20px 0;
+        }
+        .table-striped tbody tr:nth-of-type(even) {
+            color: black;
+        }
+        .table-striped thead tr {
+            background-color: #51088A;
+            color: white;
+            border: 1px solid white;
+        }
+        .table-striped td, .table-striped th {
+            border: 1px solid grey;
+            text-align: center;
+        }
+         .report-header {
+
+
+        }
+
+        .report-header span {
+            color: #1a75ff;
+            font-weight: bold;
+        }
+        hr {
+            border: none;
+            background-color: #014F70;
+            height: 70px;
+            width: 1100px; /* Sayfanın yarısına denk gelen genişlik */
+            margin: 0 auto; /* Ortalamak için */
+
+
+        }
+        .table {
+                width: 100%;
+                border-collapse: collapse;
+                border-spacing: 0;
+                font-family: Be Vietnam, sans-serif;
+                color:#014F70;
+                margin-bottom: 20px;
+                background-color: #EDFAFF;
+                border: 3px solid #FFFFFF;
+                font-size:15px;
+
+
+                }
+        .resim {
+
+        }
+
+
+        .table th {
+            background-color:#edfaff;
+            border: 3px solid #FFFFFF;
+            padding: 10px;
+            text-align: left;
+
+            width: 300px;
+
+
+        }
+
+
+        .table td {
+           border: 3px solid #FFFFFF;
+            padding: 10px;
+            background-color:#FAFAFA;
+            color:#000000;
+            font-family:Be Vietnam;
+            font-size:15px;
+             width: 300px;
+        }
+
+        .containe{
+            position: absolute;
+            width: 50%;
+            margin: 0 auto;
+            text-align: center;}
+        .table-striped tbody tr:nth-of-type(odd) {
+            background-color: #C7EEFF;
+       }
+        .text-on-line{ position: absolute;
+            top: 10px;
+            left: 60%;
+            transform: translateX(-50%);
+            color:white;
+            font-family: "Archivo Black", sans-serif;
+            font-size: 30px;
+            padding: 0 10px;
+            font-weight: bold;
+            }
+
+        .table-hover tbody tr:hover {
+             background-color: #cceeff;
+        }
+        .end{ text-align: center;
+              background-color: #C7EEFF;
+
+
+        }
+        .photo {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <h1 class="text-center ney">Anket Sonuçları</h1>
+        <div class="report-header" style="text-align:center">
+         <p class="text-center mb-3 resim"><img src="{{ url_for('static', filename='ne.jpg') }}" alt="Resim Açıklaması" id="photo" style="width:1000px"></p>
+            <script>
+                window.onload = function() {
+                   var element = document.getElementById('photo');
+                   element.style.visibility = 'visible'; // Fotoğrafın görünmesini sağlar
+                }
+            </script>
+            </div>
+    {% if last_user and selected_answers %}
+    <table class="table table-striped table-hover">
+                <tbody>
+                <tr>
+                <th scope="row" class="th">Firma Adı:</th>
+                <td class="td">{{ last_user.firma_adi }}</td>
+                </tr>
+                <tr>
+                <th scope="row" class="th">Bölüm:</th>
+                <td class="td">{{ last_user.bolum }}</td>
+                </tr>
+                <tr>
+                <th scope="row" class="th">Görev:</th>
+                <td class="td">{{ last_user.gorev }}</td>
+                </tr>
+                <tr>
+                <th scope="row" class="th">Nitelikler:</th>
+                <td class="td">{{ last_user.nitelik }}</td>
+                </tr>
+                <tr>
+                <th scope="row" class="th">Görev Tanımı:</th>
+                <td class="td">{{ last_user.gorev_tanimi }}</td>
+                </tr>
+                <tr>
+                <th scope="row" class="th">Genel İş Tanımı:</th>
+                <td class="td">{{ last_user.genel_is_tanimi }}</td>
+                </tr>
+                <tr>
+                <th scope="row" class="th">Çalışabilecek Personel Sayısı:</th>
+                <td class="td">{{ last_user.calisabilecek_personel_sayisi }}</td>
+                </tr>
+                <tr>
+                <th scope="row" class="th">İletişim ve İlişki Becerileri:</th>
+                <td class="td">{{ selected_answers.q_1 }}</td>
+                </tr>
+                <tr>
+                <th scope="row" class="th">Bilgi, Eğitim ve Deneyim:</th>
+                <td class="td">{{ selected_answers.q_2 }}</td>
+                </tr>
+                <tr>
+                <th scope="row" class="th">Analitik ve Yargısal Beceriler:</th>
+                <td class="td">{{ selected_answers.q_3 }}</td>
+                </tr>
+                <tr>
+                <th scope="row" class="th">Planlama ve Organizasyon Becerileri:</th>
+                <td class="td">{{ selected_answers.q_4 }}</td>
+                </tr>
+                <tr>
+                <th scope="row" class="th">Fiziksel Beceriler:</th>
+                <td class="td">{{ selected_answers.q_5 }}</td>
+                </tr>
+                <tr>
+                <th scope="row" class="th">Müşteri ve İşe İlişkin Sorumluluklar:</th>
+                <td class="td">{{ selected_answers.q_6 }}</td>
+                </tr>
+                <tr>
+                <th scope="row" class="th">Politika ve Hizmet Geliştirme Uygulaması İçin Sorumluluklar:</th>
+                <td class="td">{{ selected_answers.q_7 }}</td>
+                </tr>
+                <tr>
+                <th scope="row" class="th">Mali ve Fiziksel Kaynaklar İçin Sorumluluklar:</th>
+                <td class="td">{{ selected_answers.q_8 }}</td>
+                </tr>
+                <tr>
+                <th scope="row" class="th">İnsan Kaynakları (İK) Sorumlulukları:</th>
+                <td class="td">{{ selected_answers.q_9 }}</td>
+                </tr>
+                <tr>
+                <th scope="row" class="th">Bilgi Kaynakları İçin Sorumluluklar:</th>
+                <td class="td">{{ selected_answers.q_10 }}</td>
+                </tr>
+                <tr>
+                <th scope="row" class="th">Araştırma ve Geliştirme Sorumlulukları:</th>
+                <td class="td">{{ selected_answers.q_11 }}</td>
+                </tr>
+                <tr>
+                <th scope="row" class="th">Hareket Özgürlüğü:</th>
+                <td class="td">{{ selected_answers.q_12 }}</td>
+                </tr>
+                <tr>
+                <th scope="row" class="th">Fiziksel Çaba:</th>
+                <td class="td">{{ selected_answers.q_13 }}</td>
+                </tr>
+                <tr>
+                <th scope="row" class="th">Zihinsel Çaba:</th>
+                <td class="td">{{ selected_answers.q_14 }}</td>
+                </tr>
+                <tr>
+                <th scope="row" class="th">Duygusal Çaba:</th>
+                <td class="td">{{ selected_answers.q_15 }}</td>
+                </tr>
+                <tr>
+                <th scope="row" class="th">Çalışma Koşulları:</th>
+                <td class="td">{{ selected_answers.q_16 }}</td>
+                </tr>
+                <tr>
+                <th scope="row" class="th">Toplam Puan:</th>
+                <td class="td">{{ selected_answers.total_score }}</td>
+                </tr>
+                </tbody>
+                </table>
+
+    {% else %}
+    <div class="alert alert-warning" role="alert">
+        Sonuç bulunamadı.
+    </div>
+    {% endif %}
+
+    <div class="d-flex justify-content-center">
+        <a href="{{ url_for('index') }}" class="btn btn-primary btn-lg m-4">Anasayfa'ya Dön</a>
+    </div>
+</div>
+
+<!-- Bootstrap JS ve jQuery CDN'leri -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.min.js"></script>
+</body>
+</html>

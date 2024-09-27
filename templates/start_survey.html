@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anket Başlat</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <h1 class="text-center mt-3">İŞ DEĞERLENDİRME ANALİZİ</h1>
+    <h6 class="text-center">FİRMALARIN KENDİ İŞ DEĞERLEMELERİNİN OLUŞTURULMASI AMACI İLE HAZIRLANMIŞTIR</h6>
+    <div class="container mt-5">
+        <form method="POST" action="{{ url_for('start_survey') }}">
+            {{ form.hidden_tag() }}  <!-- CSRF Token -->
+
+            <!-- Firma Adı -->
+            <div class="form-group text-uppercase">
+                <strong>
+                {{ form.firma_adi.label }}
+                {{ form.firma_adi(class="form-control") }}
+                </strong>
+            </div>
+
+            <!-- Bölüm -->
+            <div class="form-group text-uppercase">
+                <strong>
+                {{ form.bolum.label }}
+                {{ form.bolum(class="form-control") }}
+                </strong>
+            </div>
+
+            <!-- Görev -->
+            <div class="form-group text-uppercase">
+                <strong>
+                {{ form.gorev.label }}
+                {{ form.gorev(class="form-control") }}
+                </strong>
+            </div>
+
+            <!-- Nitelik -->
+            <div class="form-group text-uppercase">
+                <strong>
+                {{ form.nitelik.label }}
+                {{ form.nitelik(class="form-control") }}
+                </strong>
+            </div>
+
+            <!-- Görev Tanımı -->
+            <div class="form-group text-uppercase">
+                <strong>
+                {{ form.gorev_tanimi.label }}
+                {{ form.gorev_tanimi(class="form-control") }}
+                </strong>
+            </div>
+
+            <!-- Genel İş Tanımı -->
+            <div class="form-group text-uppercase">
+                <strong>
+                {{ form.genel_is_tanimi.label }}
+                {{ form.genel_is_tanimi(class="form-control") }}
+                </strong>
+            </div>
+
+            <!-- Çalışabilecek Personel Sayısı -->
+            <div class="form-group text-uppercase">
+                <strong>
+                {{ form.calisabilecek_personel_sayisi.label }}
+                {{ form.calisabilecek_personel_sayisi(class="form-control") }}
+                </strong>
+            </div>
+
+            <!-- Anketi Başlat Butonu -->
+            <button type="submit" class="btn btn-primary btn-block">İLERİ</button>
+        </form>
+    </div>
+
+    <!-- Bootstrap JS ve bağımlılıkları -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
