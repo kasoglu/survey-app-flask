@@ -34,8 +34,8 @@ Ensure you have the following installed on your machine:
 ### Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/your-repo-name.git
-cd your-repo-name
+git clone https://github.com/your-username/survey-app-flask.git
+cd survey-app-flask
 ```
 
 ### Create a Virtual Environment
