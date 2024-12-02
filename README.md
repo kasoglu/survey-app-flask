@@ -34,7 +34,7 @@ Ensure you have the following installed on your machine:
 ### Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/survey-app-flask.git
+git clone https://github.com/kasoglu/survey-app-flask.git
 cd survey-app-flask
 ```
 
